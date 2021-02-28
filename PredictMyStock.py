@@ -11,6 +11,12 @@ import yfinance as yf
 from fbprophet import Prophet
 from fbprophet.plot import plot_plotly
 from plotly import graph_objs as go
+#import time
+
+st.set_page_config(
+        page_title='Predict My Stocks                 ',
+        page_icon="📈"
+        )
 
 
 
@@ -38,7 +44,6 @@ def _max_width_():
     )
 
 
-
 START = "2000-01-01"
 TODAY = date.today().strftime("%Y-%m-%d")
 
@@ -49,7 +54,7 @@ st.markdown("<h2 style='text-align: center; color: black;'>Enter your stock and 
 
 #https://ibb.co/FqhFwD3
 
-st.markdown("<h5 style='text-align: center; color: black;'>(Please note that the results are not a guarantee. With this project I wanted to enable people to apply machine learning to their stocks. If an error occurs the stock is not in my stock list. Prices are in US dollars. Version 2.0.0 Added cryptocurrencies BTC-USD)</h5>", unsafe_allow_html=True)
+st.markdown("<h5 style='text-align: center; color: black;'>(Please note that the results are not a guarantee and you buy stocks at your own risk. With this project I wanted to enable people to apply machine learning to their stocks. If an error occurs the stock is not in my stock list. Prices are in US dollars. Version 2.0 Added cryptocurrencies BTC-USD)</h5>", unsafe_allow_html=True)
 
 st.markdown("<h5 style='text-align: center; color: black;'>                 </h5>", unsafe_allow_html=True)
 
@@ -118,6 +123,7 @@ def load_data(ticker):
 
 
 data_load_state = st.text('Loading data...')
+
 data = load_data(selected_stock)
 data_load_state.text('Loading data... done!')
 
@@ -134,6 +140,9 @@ def plot_raw_data():
 
 plot_raw_data()
 
+
+
+
 # Predict forecast with Prophet.
 df_train = data[['Date','Close']]
 df_train = df_train.rename(columns={"Date": "ds", "Close": "y"})
@@ -142,6 +151,11 @@ m = Prophet()
 m.fit(df_train)
 future = m.make_future_dataframe(periods=period)
 forecast = m.predict(future)
+
+#Show cat GIF
+#if m.predict(future) == True:
+#    st.markdown("![Alt Text](https://media.giphy.com/media/lLo0vQHigkMzGETtu/giphy.gif)")
+
 
 # Show and plot forecast
 #st.subheader('Forecast data')
@@ -173,6 +187,9 @@ link = '[My website](http://mnemo.uk)'
 st.markdown(link, unsafe_allow_html=True)
 
 link = '[Instagram](https://www.instagram.com/max_mnemo/)'
+st.markdown(link, unsafe_allow_html=True)
+
+link = '[Github Repo](https://github.com/facebook/prophet)'
 st.markdown(link, unsafe_allow_html=True)
 
 
