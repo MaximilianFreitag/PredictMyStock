@@ -100,7 +100,7 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 ' INSE', ' RNWK', ' MLLLF', ' VS', ' GMGI', ' SLGG', ' BHAT', ' GIGM', ' YVR', ' F', ' PLUG', ' RKT', ' TSNP', ' RLLCF', ' BAYP',
 ' LPSN', ' TRIP', ' WW', ' BLUE', ' SFIX', ' MMYT', ' VICR', ' DNLI', ' VST', ' ENV', ' FLR', ' SPCE', ' BKRKF', ' ZIJMF', ' FL',
 ' REGI', ' APPH', ' FOCS', ' ROOT', ' ADT', ' EIPAF', ' NKLA', ' ABML', ' TSNPD', ' DJI', ' IXIC',
-' 9684.T', ' 9697.T', ' 9766.T', ' 7974.T', ' 3659.T', ' 7974.T', ' TOR', ' OTC', ' CX', ' BECN', ' JELD', ' FRTA', ' MI', ' EME',
+' 9684.T', ' 9697.T', ' 9766.T', ' 3659.T', ' 7974.T', ' TOR', ' OTC', ' CX', ' BECN', ' JELD', ' FRTA', ' MI', ' EME',
 ' BEKE', ' PLD', ' WELL', ' SPG-PJ', ' PSA-PK', ' PSA-PH', ' DLR', ' CBRE', ' WY', ' O', ' ARE', ' DLR-PJ', ' DLR-PC', ' INVH',
 ' ESS', ' SCCO', ' NEM', ' MLM', ' MANU', ' ASR', ' MRAAF', ' JUVE.MI', ' RFC', ' SSL.MI', ' BVB.DE', ' AJAX.AS', ' ASR.MI',
 ' RACE.MI', ' LINK-USD', ' XLM-USD', ' DOGE-USD', ' XEM-USD', ' XMR-USD', ' ATOM1-USD', ' DOT1-USD', ' DOT2-USD', ' BTC-USD', ' ETH-USD', ' BCH-USD',
