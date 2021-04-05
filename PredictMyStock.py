@@ -107,7 +107,7 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 ' RACE.MI', ' LINK-USD', ' XLM-USD', ' DOGE-USD', ' XEM-USD', ' XMR-USD', ' ATOM1-USD', ' DOT1-USD', ' DOT2-USD', ' BTC-USD', ' ETH-USD', ' BCH-USD',
 ' ATOM2-USD', ' MIOTA-USD', ' THETA-USD', ' TRX-USD', ' BSV-USD', ' EOS-USD', ' SOL1-USD', ' SOL2-USD', ' USDC-USD', ' NEO-USD', ' XTZ-USD', ' VET-USD',
 ' DASH-USD', ' ALGO-USD', ' CCOEY', ' KNMCY', ' SQNXF', ' SGAMY', ' ADA-USD', ' BNB-USD', ' XRP-USD', ' LTC-USD',
-' NCBDF', ' NVFY', ' GC=F (Gold)', ' BZ=F (Brent Crude Oil)', ' SI=F (Silver)', ' HG=F (Copper)', ' EURUSD=X', ' GBPUSD=X', ' EURGBP=X', ' EURCHF=X', ' EURJPY=X', ' JPYUSD=X', ' AUDUSD=X', ' CADUSD=X',
+' NCBDF', ' NVFY', ' GC=F', ' BZ=F', ' SI=F', ' HG=F', ' EURUSD=X', ' GBPUSD=X', ' EURGBP=X', ' EURCHF=X', ' EURJPY=X', ' JPYUSD=X', ' AUDUSD=X', ' CADUSD=X',
 ' 0Q0C.L', ' 0SOM.L', ' 0IBD.L', ' 0SJQ.L', ' WRES.L', ' 0DZ3.L', ' 7B7.F', ' TGKB.ME', ' VTBR.ME', ' SYME.L', ' FEES.ME', ' TGKBP.ME',
 ' 88E.L', ' F', ' GUNKUL-R.BK', ' GUNKUL.BK', ' 000725.SZ', ' VIVA.JK', ' TRITN.BK', ' TRITN-R.BK', ' 003535.KS', ' 066910.KQ', ' 1543.HK', ' GDAXI',
 ' STOXX50E', ' CMC200', ' XIACF', ' BMW.DE', ' BAYN.DE', ' BAYRY', ' SIE.DE', ' VOW3.DE', ' BAS.DE', ' DAI.DE', ' SAP.DE',
@@ -123,7 +123,7 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 
 selected_stock = st.selectbox('Select stock you want to predict', stocks)
 
-n_years = st.slider('Years of prediction:', 1, 3)
+n_years = st.slider('Years of prediction:', 1, 2)
 period = n_years * 365
 
 
