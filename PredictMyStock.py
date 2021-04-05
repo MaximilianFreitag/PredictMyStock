@@ -61,6 +61,7 @@ st.markdown("<h5 style='text-align: center; color: black;'>                 </h5
 st.markdown("<h5 style='text-align: center; color: black;'>                 </h5>", unsafe_allow_html=True)
 
 
+
 stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', ' ORCL', ' SNPS', ' VRSN', ' ACN', ' IBM', ' CRM', ' NOW', ' FIS',
 ' FISV', ' ADSK', ' INTU', ' COMMU', ' CSCO', ' AMAT', ' APH', ' HPQ', ' MSI', ' V', ' DIS', ' CMCSA', ' VZ', ' T', ' TMUS', ' NFLX', ' CHTR',
 ' NVDA', ' AVGO', ' QCOM', ' TXN', ' MU', ' AMD', ' XLNX', ' MCHP', ' ADI', ' JPM', ' BAC', ' BRK-B', ' AXP', ' COF', ' C', ' WFC',
@@ -100,13 +101,24 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 ' INSE', ' RNWK', ' MLLLF', ' VS', ' GMGI', ' SLGG', ' BHAT', ' GIGM', ' YVR', ' F', ' PLUG', ' RKT', ' TSNP', ' RLLCF', ' BAYP',
 ' LPSN', ' TRIP', ' WW', ' BLUE', ' SFIX', ' MMYT', ' VICR', ' DNLI', ' VST', ' ENV', ' FLR', ' SPCE', ' BKRKF', ' ZIJMF', ' FL',
 ' REGI', ' APPH', ' FOCS', ' ROOT', ' ADT', ' EIPAF', ' NKLA', ' ABML', ' TSNPD', ' DJI', ' IXIC',
-' 9684.T', ' 9697.T', ' 9766.T', ' 3659.T', ' 7974.T', ' TOR', ' OTC', ' CX', ' BECN', ' JELD', ' FRTA', ' MI', ' EME',
-' BEKE', ' PLD', ' WELL', ' SPG-PJ', ' PSA-PK', ' PSA-PH', ' DLR', ' CBRE', ' WY', ' O', ' ARE', ' DLR-PJ', ' DLR-PC', ' INVH', ' BAYN.DE',
+' 9684.T', ' 9697.T', ' 9766.T', ' 7974.T', ' 3659.T', ' 7974.T', ' TOR', ' OTC', ' CX', ' BECN', ' JELD', ' FRTA', ' MI', ' EME',
+' BEKE', ' PLD', ' WELL', ' SPG-PJ', ' PSA-PK', ' PSA-PH', ' DLR', ' CBRE', ' WY', ' O', ' ARE', ' DLR-PJ', ' DLR-PC', ' INVH',
 ' ESS', ' SCCO', ' NEM', ' MLM', ' MANU', ' ASR', ' MRAAF', ' JUVE.MI', ' RFC', ' SSL.MI', ' BVB.DE', ' AJAX.AS', ' ASR.MI',
 ' RACE.MI', ' LINK-USD', ' XLM-USD', ' DOGE-USD', ' XEM-USD', ' XMR-USD', ' ATOM1-USD', ' DOT1-USD', ' DOT2-USD', ' BTC-USD', ' ETH-USD', ' BCH-USD',
 ' ATOM2-USD', ' MIOTA-USD', ' THETA-USD', ' TRX-USD', ' BSV-USD', ' EOS-USD', ' SOL1-USD', ' SOL2-USD', ' USDC-USD', ' NEO-USD', ' XTZ-USD', ' VET-USD',
 ' DASH-USD', ' ALGO-USD', ' CCOEY', ' KNMCY', ' SQNXF', ' SGAMY', ' ADA-USD', ' BNB-USD', ' XRP-USD', ' LTC-USD',
-' NCBDF')
+' NCBDF', ' NVFY', ' GC=F (Gold)', ' BZ=F (Brent Crude Oil)', ' SI=F (Silver)', ' HG=F (Copper)', ' EURUSD=X', ' GBPUSD=X', ' EURGBP=X', ' EURCHF=X', ' EURJPY=X', ' JPYUSD=X', ' AUDUSD=X', ' CADUSD=X',
+' 0Q0C.L', ' 0SOM.L', ' 0IBD.L', ' 0SJQ.L', ' WRES.L', ' 0DZ3.L', ' 7B7.F', ' TGKB.ME', ' VTBR.ME', ' SYME.L', ' FEES.ME', ' TGKBP.ME',
+' 88E.L', ' F', ' GUNKUL-R.BK', ' GUNKUL.BK', ' 000725.SZ', ' VIVA.JK', ' TRITN.BK', ' TRITN-R.BK', ' 003535.KS', ' 066910.KQ', ' 1543.HK', ' GDAXI',
+' STOXX50E', ' CMC200', ' XIACF', ' BMW.DE', ' BAYN.DE', ' BAYRY', ' SIE.DE', ' VOW3.DE', ' BAS.DE', ' DAI.DE', ' SAP.DE',
+' ALV.DE', ' RWE.DE', ' EOAN.DE', ' DTE.DE', ' MUV2.DE', ' ^IXIC', ' ^DJI', ' ^RUT', ' CL=F', ' ^GSPC', ' HBAR-USD', ' CTC1-USD',
+' EGLD-USD', ' LUNA2-USD', ' ZIL-USD', ' STX1-USD', ' DCR-USD', ' ZEC-USD', ' TFUEL-USD', ' BAT-USD', ' ETC-USD', ' CCXX-USD', ' RVN-USD', ' SC-USD',
+' ICX-USD', ' ONT-USD', ' ONE2-USD', ' CEL-USD', ' ZRX-USD', ' WAVES-USD', ' QTUM-USD', ' BNT-USD', ' OMG-USD', ' XWC-USD', ' IOST-USD', ' BTG-USD',
+' NANO-USD', ' ZEN-USD', ' LRC-USD', ' STORJ-USD', ' MED-USD', ' KNC-USD', ' SNT-USD', ' GLM-USD', ' ARK-USD', ' ANT-USD', ' FUN-USD', ' MAID-USD',
+' EWT-USD', ' IOTX-USD', ' VLX-USD', ' WAXP-USD', ' WAN-USD', ' ARDR-USD', ' REP-USD', ' STEEM-USD', ' MARO-USD', ' STRAX-USD', ' TT-USD', ' NKN-USD',
+' BTM-USD', ' TOMO-USD', ' ATRI-USD', ' BCD-USD', ' COTI-USD', ' GNO-USD', ' RLC-USD', ' IRIS-USD', ' NCLH', ' TME', ' ^IXIC', ' ^VIX',
+' IMOEX.ME', ' ^N225', ' ', ' UNFI', ' ASO', ' LPL', ' RIOT', ' AMKR', ' IGMS', ' KLIC', ' MARA', ' CNNC', ' NNOX', ' FBASF', ' NINOF', ' RBLX', ' CAN', ' ETSY',
+' NIO', ' CEMI', ' ZOM', ' JBLU', ' ACAD', ' CHPT')
 
 
 selected_stock = st.selectbox('Select stock you want to predict', stocks)
