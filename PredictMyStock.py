@@ -118,7 +118,7 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 ' EWT-USD', ' IOTX-USD', ' VLX-USD', ' WAXP-USD', ' WAN-USD', ' ARDR-USD', ' REP-USD', ' STEEM-USD', ' MARO-USD', ' STRAX-USD', ' TT-USD', ' NKN-USD',
 ' BTM-USD', ' TOMO-USD', ' ATRI-USD', ' BCD-USD', ' COTI-USD', ' GNO-USD', ' RLC-USD', ' IRIS-USD', ' NCLH', ' TME', ' ^IXIC', ' ^VIX',
 ' IMOEX.ME', ' ^N225', ' ', ' UNFI', ' ASO', ' LPL', ' RIOT', ' AMKR', ' IGMS', ' KLIC', ' MARA', ' CNNC', ' NNOX', ' FBASF', ' NINOF', ' RBLX', ' CAN', ' ETSY',
-' NIO', ' CEMI', ' ZOM', ' JBLU', ' ACAD', ' CHPT', ' ABCM', ' ATHM', ' HSTM', ' JOBS', ' SAP')
+' NIO', ' CEMI', ' ZOM', ' JBLU', ' ACAD', ' CHPT', ' ABCM', ' ATHM', ' HSTM', ' JOBS')
 
 
 selected_stock = st.selectbox('Select stock you want to predict', stocks)
