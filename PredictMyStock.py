@@ -73,7 +73,7 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 ' BA', ' RTX', ' NOC', ' LMT', ' GD', ' LHX', ' GE', ' MMM', ' HON', ' ITW', ' EMR', ' ROP', ' PH', ' IR', ' CAT', ' ADP', ' EFX',
 ' VRSK', ' ADP', ' JCI', ' GIS', ' KHC', ' K', ' SYY', ' STZ', ' MDLZ', ' MO', ' PM', ' KO', ' PEP', ' COP', ' VTR', ' ASML', ' NVS',
 ' MRVL', ' BIP', ' AMX', ' FMX', ' FN', ' RE', ' BEP', ' EC', ' VALE', ' ITUB', ' ABEV', ' XP', ' BBD', ' PBR', ' MELI', ' BSBR',
-' GOLD', ' NTR', ' CNQ', ' KL', ' GIB', ' SAP', ' TOT', ' AZN', ' BP', ' BTI', ' NGG', ' PUK', ' VOD', ' DEO', ' HSBC', ' RIO', ' UL', ' TT', ' APTV', ' SAN', ' BBVA', ' TEF',
+' GOLD', ' NTR', ' CNQ', ' KL', ' GIB', ' TOT', ' AZN', ' BP', ' BTI', ' NGG', ' PUK', ' VOD', ' DEO', ' HSBC', ' RIO', ' UL', ' TT', ' APTV', ' SAN', ' BBVA', ' TEF',
 ' BUD', ' NXPI', ' PHG', ' DB', ' GSK', ' CCEP', ' FTCH', ' QSR', ' MGA', ' WPM', ' NVO', ' CB', ' SPOT', ' ABB', ' ALC', ' CS', ' MT',
 ' GFI', ' PAND', ' KOSS', ' DYNT', ' ACY', ' STXS', ' PUBM', ' SEAS', ' PDCE', ' TS', ' WOW', ' CDXC', ' ACIA', ' PTVCB', ' CRTO', ' PMBC',
 ' LORL', ' PRA', ' ASRV', ' SSNT', ' SFBC', ' INFR', ' ASLN', ' ARD', ' AGR', ' AAON', ' ACIW', ' ADAP', ' ULBI', ' NCTY', ' PING', ' RETO', ' HCC',
@@ -118,7 +118,7 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 ' EWT-USD', ' IOTX-USD', ' VLX-USD', ' WAXP-USD', ' WAN-USD', ' ARDR-USD', ' REP-USD', ' STEEM-USD', ' MARO-USD', ' STRAX-USD', ' TT-USD', ' NKN-USD',
 ' BTM-USD', ' TOMO-USD', ' ATRI-USD', ' BCD-USD', ' COTI-USD', ' GNO-USD', ' RLC-USD', ' IRIS-USD', ' NCLH', ' TME', ' ^IXIC', ' ^VIX',
 ' IMOEX.ME', ' ^N225', ' ', ' UNFI', ' ASO', ' LPL', ' RIOT', ' AMKR', ' IGMS', ' KLIC', ' MARA', ' CNNC', ' NNOX', ' FBASF', ' NINOF', ' RBLX', ' CAN', ' ETSY',
-' NIO', ' CEMI', ' ZOM', ' JBLU', ' ACAD', ' CHPT', ' ABCM', ' ATHM', ' HSTM', ' JOBS')
+' NIO', ' CEMI', ' ZOM', ' JBLU', ' ACAD', ' CHPT', ' ABC.L', ' ATHM', ' HSTM', ' JOBS')
 
 
 selected_stock = st.selectbox('Select stock you want to predict', stocks)
