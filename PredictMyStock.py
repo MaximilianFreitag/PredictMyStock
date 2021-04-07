@@ -85,7 +85,7 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 ' TSM', ' BABA', ' GOOGL', ' BRK.A', ' BRK.B', ' MA', ' PG', ' PYPL', ' INTC', ' PDD', ' UNP', ' UPS', ' SNE', ' RY', ' DE', ' ARCC',
 ' SXY', ' IMKTA', ' MSGN', ' KBAL', ' UBA', ' HFC', ' CXW', ' TAP', ' DBI', ' GEO', ' DISCA', ' QRTEA', ' ALL', ' WDC', ' UNIT', ' RPT', ' DNOW',
 ' LUMN', ' QRVO', ' TCOM', ' ROIC', ' CVS', ' NOV', ' GM', ' MCO', ' LSXMK', ' TKA', ' 1COV', ' DBK', ' DB1',
- ' FME', ' CON', ' HEN3', ' ALV', ' SAP', ' LLOY', ' RR', ' IAG', ' BARC', ' GLEN', ' HSBA', ' TSCO', ' NWG', ' SMDS', ' RDSB', ' STAN', ' TW', ' AV', ' BATS', ' NOK', ' QS', ' TDOC',
+ ' FME', ' CON', ' HEN3', ' ALV', ' LLOY', ' RR', ' IAG', ' BARC', ' GLEN', ' HSBA', ' TSCO', ' NWG', ' SMDS', ' RDSB', ' STAN', ' TW', ' AV', ' BATS', ' NOK', ' QS', ' TDOC',
 ' PZZA', ' BB', ' LI', ' QQQ', ' SCR', ' ARKK', ' WAMCX', ' IEC', ' TCEHY', ' HLT', ' PINS', ' BIOPX', ' TWLO', ' UPLD', ' W', ' TNC', ' MPGFX',
 ' MAT', ' FCX', ' IAC', ' ETSY', ' PTON', ' EXPR', ' JAGX', ' CCIV', ' SNDL', ' ZOM', ' MOMO', ' MYO', ' MENXF', ' TM', ' SFTBF', ' NTDMF', ' FRCOF',
 ' NPPXF', ' NNDNF', ' NTDOF', ' KDDIF', ' SHECF', ' MUFG', ' MRAAF', ' TAK', ' HMC', ' ITOCF', ' SVNDF', ' MFG', ' MIELF', ' ALPMF', ' 7832.T',
@@ -116,7 +116,7 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 ' NANO-USD', ' ZEN-USD', ' LRC-USD', ' STORJ-USD', ' MED-USD', ' KNC-USD', ' SNT-USD', ' GLM-USD', ' ARK-USD', ' ANT-USD', ' FUN-USD', ' MAID-USD',
 ' EWT-USD', ' IOTX-USD', ' VLX-USD', ' WAXP-USD', ' WAN-USD', ' ARDR-USD', ' REP-USD', ' STEEM-USD', ' MARO-USD', ' STRAX-USD', ' TT-USD', ' NKN-USD',
 ' BTM-USD', ' TOMO-USD', ' ATRI-USD', ' BCD-USD', ' COTI-USD', ' GNO-USD', ' RLC-USD', ' IRIS-USD', ' NCLH', ' TME', ' ^IXIC', ' ^VIX',
-' IMOEX.ME', ' ^N225', ' ', ' UNFI', ' ASO', ' LPL', ' RIOT', ' AMKR', ' IGMS', ' KLIC', ' MARA', ' CNNC', ' NNOX', ' FBASF', ' NINOF', ' RBLX', ' CAN', ' ETSY',
+' IMOEX.ME', ' ^N225', ' ', ' UNFI', ' ASO', ' LPL', ' RIOT', ' AMKR', ' IGMS', ' KLIC', ' MARA', ' CNNC', ' NNOX', ' NINOF', ' RBLX', ' CAN', ' ETSY',
 ' CEMI', ' ZOM', ' JBLU', ' ACAD', ' CHPT', ' ABC.L', ' ATHM', ' HSTM', ' JOBS', ' TUI1.DE', ' TKA.DE', ' LHA.DE', ' CBK.DE',
 ' LIN.DE', ' GILT', ' UAV.L', ' WDI.F', ' ZEF.F', ' P5TA.F', ' W6O.F', ' GSG.F', ' AWL1.F', ' IFX.DE', ' SRT3.DE',
 ' RAA.DE', ' WIN.DE', ' LEO.DE', ' JEN.DE', ' SSU.DE', ' INL.F', ' CIS.F', ' TII.F', ' TSFA.F', ' RMO', ' ^GDAXI', ' HEN.DE', ' EVK.DE',
@@ -129,10 +129,15 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 ' AHLA.F', ' ORC.F', ' QCI.F', ' CSA.F', ' IOY.SG', ' SFT.F', ' ADB.F', ' FOO.DE', ' YHO.F', ' 2HP.DE', ' EBA.DE', ' NSU.DE', ' UAL1.F', ' TOM.DE',
 ' HDM.F', ' GM.SW', ' FMC1.DE', ' NISA.F', ' TL0.DE', ' HYU.F', ' RNL.F', ' VOL1.F', ' PEU.F', ' SUK.F', ' FMC.DE', ' HOT.DE', ' HEI.DE', ' CAT1.F',
 ' IXD1.DE', ' UTC1.DE', ' LWE.F', ' ILT.F', ' KMY.DE', ' SQU.F', ' ACOF.F', ' DCO.DE', ' KD8.HM', ' MEO.DE', ' UTDI.DE', ' PAH3.DE', ' INH.DE', ' BRH.F',
-' ALD.F', ' TN8.F', ' SOT.F', ' ENL.F', ' H4W.F', ' WF3.F', ' FIE.DE', ' TTK.DE', ' HBH.DE', ' WMT.F', ' HDI.DE', ' MDO.F', ' MDO.F', ' PCE1.DE',
+' ALD.F', ' TN8.F', ' SOT.F', ' ENL.F', ' H4W.F', ' WF3.F', ' FIE.DE', ' TTK.DE', ' HBH.DE', ' WMT.F', ' HDI.DE', ' MDO.F', ' PCE1.DE',
 ' CTO.F', ' DYH.F', ' CVC1.DE', ' HMSB.DE', ' CAR.F', ' TCO.F', ' SRB.DE', ' SY1.DE', ' FME.DE', ' RHKG.DE', ' AFX.DE', ' MOR.DE', ' BNTX', ' ^STOXX50E',
 ' BEKE', ' DDOG', ' AAGH', ' ROKU', ' EH', ' SFIX', ' VLDR', ' TOSYY', ' INVU', ' SNCY', ' AFTPY', ' IQ',
-' RVLV', ' STLFF', ' GOEV', ' QTRX', ' LOGI', ' ZS', ' RCKT', ' FBASF', ' UCTT', ' DSP', ' RLAY', ' GSAT', ' SAIA', ' BEAM', ' GCTAY', ' APHA')
+' RVLV', ' STLFF', ' GOEV', ' QTRX', ' LOGI', ' ZS', ' RCKT', ' UCTT', ' DSP', ' RLAY', ' GSAT', ' SAIA', ' BEAM',
+' GCTAY', ' APHA', ' WKEY', ' XL', ' HYLN', ' PTEN', ' DHT', ' FGEN', ' WPG', ' FBASF', ' RMO', ' LTRPB', ' MKTY', ' IKNA', ' ACHL',
+' GASS', ' MERC', ' CGEM', ' AMR', ' JT', ' VCTR', ' CTG', ' VIVO', ' EXPR', ' HOLX', ' BWA', ' DHI', ' SBSW', ' EBAY',
+' LEN', ' CE', ' TLK', ' SNP', ' TEF', ' EBR-B', ' EBR', ' PPL', ' SHG', ' PKX', ' ORAN', ' VIV', ' REGN', ' FE',
+' DISH', ' DVA')
+
 
 
 selected_stock = st.selectbox('Select stock you want to predict', stocks)
