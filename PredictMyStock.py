@@ -87,7 +87,7 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 ' LUMN', ' QRVO', ' TCOM', ' ROIC', ' CVS', ' NOV', ' GM', ' MCO', ' LSXMK', ' TKA', ' 1COV', ' DBK', ' DB1',
  ' FME', ' CON', ' HEN3', ' ALV', ' LLOY', ' RR', ' IAG', ' BARC', ' GLEN', ' HSBA', ' TSCO', ' NWG', ' SMDS', ' RDSB', ' STAN', ' TW', ' AV', ' BATS', ' NOK', ' QS', ' TDOC',
 ' PZZA', ' BB', ' LI', ' QQQ', ' SCR', ' ARKK', ' WAMCX', ' IEC', ' TCEHY', ' HLT', ' PINS', ' BIOPX', ' TWLO', ' UPLD', ' W', ' TNC', ' MPGFX',
-' MAT', ' FCX', ' IAC', ' ETSY', ' PTON', ' EXPR', ' JAGX', ' CCIV', ' SNDL', ' ZOM', ' MOMO', ' MYO', ' MENXF', ' TM', ' SFTBF', ' NTDMF', ' FRCOF',
+' MAT', ' FCX', ' IAC', ' ETSY', ' PTON', ' JAGX', ' CCIV', ' SNDL', ' ZOM', ' MOMO', ' MYO', ' MENXF', ' TM', ' SFTBF', ' NTDMF', ' FRCOF',
 ' NPPXF', ' NNDNF', ' NTDOF', ' KDDIF', ' SHECF', ' MUFG', ' MRAAF', ' TAK', ' HMC', ' ITOCF', ' SVNDF', ' MFG', ' MIELF', ' ALPMF', ' 7832.T',
 ' CGC', ' SMG', ' GWPH', ' TLRY', ' CRON', ' ACB', ' NBEV', ' CRBP', ' TGODF', ' TRTC', ' CANN', ' MJ', ' MSBHF', ' MITSY', ' SSUMY',
 ' ITOCY', ' MARUY', ' TGC', ' TCDA', ' REPH', ' TPIC', ' GTT', ' ANGN', ' RAAS', ' HTOO', ' AGIO', ' SQQQ', ' SVC', ' CDNA', ' COKE',
@@ -136,8 +136,7 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 ' GCTAY', ' APHA', ' WKEY', ' XL', ' HYLN', ' PTEN', ' DHT', ' FGEN', ' WPG', ' FBASF', ' RMO', ' LTRPB', ' MKTY', ' IKNA', ' ACHL',
 ' GASS', ' MERC', ' CGEM', ' AMR', ' JT', ' VCTR', ' CTG', ' VIVO', ' EXPR', ' HOLX', ' BWA', ' DHI', ' SBSW', ' EBAY',
 ' LEN', ' CE', ' TLK', ' SNP', ' TEF', ' EBR-B', ' EBR', ' PPL', ' SHG', ' PKX', ' ORAN', ' VIV', ' REGN', ' FE',
-' DISH', ' DVA')
-
+' DISH', ' DVA', ' XL', ' UL', ' RR.L', ' RYCEY', ' SLV', ' IWM', ' ICLN', ' SOXX', ' TLT', ' IAU', ' MSCI', ' EEM', ' MFS=F', ' MME=F', ' EWZ', ' EFA')
 
 
 selected_stock = st.selectbox('Select stock you want to predict', stocks)
