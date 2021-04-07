@@ -97,7 +97,7 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 ' ARRY', ' APPS', ' ARW', ' ASUR', ' ASYS', ' ATC', ' ATEN', ' ATOM', ' AUDC', ' AUUD', ' AVGO', ' AVNW', ' AVT', ' AXTI', ' AYX',
 ' AZPN', ' BDR', ' BCOV', ' BELFB', ' BHE', ' BILL', ' BKI', ' BKTI', ' ABR', ' AAXJ', ' AAME', ' RDS.A', ' RDS.B', ' NTDOY', ' AVID',
 ' TTWO', ' CCOEF', ' PLTK', ' ZNGA', ' SKLZ', ' UBSFY', ' OTGLY', ' GLUU', ' TSCRD', ' GRVY', ' NGMS', ' ENGMF', ' MSGM', ' SCPL', ' BRGGF',
-' INSE', ' RNWK', ' MLLLF', ' VS', ' GMGI', ' SLGG', ' BHAT', ' GIGM', ' YVR', ' F', ' PLUG', ' RKT', ' TSNP', ' RLLCF', ' BAYP',
+' INSE', ' RNWK', ' MLLLF', ' VS', ' GMGI', ' SLGG', ' BHAT', ' GIGM', ' YVR', ' F', ' RKT', ' TSNP', ' RLLCF', ' BAYP',
 ' LPSN', ' TRIP', ' WW', ' BLUE', ' SFIX', ' MMYT', ' VICR', ' DNLI', ' VST', ' ENV', ' FLR', ' SPCE', ' BKRKF', ' ZIJMF', ' FL',
 ' REGI', ' APPH', ' FOCS', ' ROOT', ' ADT', ' EIPAF', ' NKLA', ' ABML', ' TSNPD', ' DJI', ' IXIC',
 ' 9684.T', ' 9697.T', ' 9766.T', ' 7974.T', ' 3659.T', ' 7974.T', ' TOR', ' OTC', ' CX', ' BECN', ' JELD', ' FRTA', ' MI', ' EME',
@@ -136,7 +136,8 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 ' GCTAY', ' APHA', ' WKEY', ' XL', ' HYLN', ' PTEN', ' DHT', ' FGEN', ' WPG', ' FBASF', ' RMO', ' LTRPB', ' MKTY', ' IKNA', ' ACHL',
 ' GASS', ' MERC', ' CGEM', ' AMR', ' JT', ' VCTR', ' CTG', ' VIVO', ' EXPR', ' HOLX', ' BWA', ' DHI', ' SBSW', ' EBAY',
 ' LEN', ' CE', ' TLK', ' SNP', ' TEF', ' EBR-B', ' EBR', ' PPL', ' SHG', ' PKX', ' ORAN', ' VIV', ' REGN', ' FE',
-' DISH', ' DVA', ' XL', ' UL', ' RR.L', ' RYCEY', ' SLV', ' IWM', ' ICLN', ' SOXX', ' TLT', ' IAU', ' MSCI', ' EEM', ' MFS=F', ' MME=F', ' EWZ', ' EFA')
+' FMS', ' FRE.DE', ' 11C.F', ' PSHD.L', ' GXI.DE', ' HFG.DE', ' PLUG.DE', ' COIN', ' SEED', ' NOEC', ' COUR', ' AVD', ' IPI', ' EEM', ' MFS=F', ' MME=F', ' EWZ', ' EFA',
+' DOCN', ' OLO', ' ACVA', ' ACHL', ' IMCR', ' TUYA', ' DSGN')
 
 
 selected_stock = st.selectbox('Select stock you want to predict', stocks)
