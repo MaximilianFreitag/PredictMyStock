@@ -73,7 +73,7 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 ' PTVCB', ' CRTO', ' PMBC', ' LORL', ' PRA', ' ASRV', ' SSNT', ' SFBC', ' INFR', ' ASLN', ' ARD', ' AGR', ' AAON', ' ACIW', ' ADAP', ' ULBI', ' NCTY', ' PING', ' RETO', ' HCC', ' CLGN', ' SOS', ' ITP', ' USPH', ' PNRG', ' RYI', ' IIPR', ' FROG', 
 ' SNSE', ' POSH', ' OPT', ' KUKE', ' UAMY', ' BVS', ' QLI', ' WOOF', ' AMC', ' UVXY', ' T', ' AAOI', ' ABNB', ' ACHC', ' SSY', ' COHU', ' NAKD', ' BCE', ' MRNA', ' TWTR', ' BBY', ' WMT', ' SE', ' OKTA', ' TGT', ' KR',
 ' SHOP', ' CNI', ' ENB', ' BNS', ' BAM', ' LULU', ' TRP', ' TRI', ' BCE', ' CM', ' BMO', ' CP', ' MFC', ' SLF', ' TU', ' FNV', ' RCI', ' BILI', ' NTES', ' DELL', ' SPLK', ' VIAC', ' BURL', ' COST', ' WDAY', ' TLIS', ' DBTX', ' DVN', ' PLTR', 
-' AA', ' AADR', ' AAL', ' AAMC', ' AAP', ' MSFT', ' MRVI', ' KSS', ' PRGO', ' AEP', ' SQM', ' DASH', ' COO', ' SNOW', ' AZO', ' ZM', ' IEP', ' NIO', ' VEEV', ' ZLAB', ' DLTR', ' OPEN', ' TSM', ' BABA', ' GOOGL', ' BRK.A', ' BRK.B', ' MA', ' PG', 
+' AA', ' AADR', ' AAL', ' AAMC', ' AAP', ' MSFT', ' MRVI', ' KSS', ' PRGO', ' AEP', ' SQM', ' DASH', ' COO', ' SNOW', ' AZO', ' ZM', ' IEP', ' NIO', ' VEEV', ' ZLAB', ' DLTR', ' OPEN', ' TSM', ' BABA', ' GOOGL', ' BRK-A', ' MA', ' PG', 
 ' PYPL', ' INTC', ' PDD', ' UNP', ' UPS', ' SNE', ' RY', ' DE', ' ARCC', ' SXY', ' IMKTA', ' MSGN', ' KBAL', ' UBA', ' HFC', ' CXW', ' TAP', ' DBI', ' GEO', ' DISCA', ' QRTEA', ' ALL', ' WDC', ' UNIT', ' RPT', ' DNOW',
 ' LUMN', ' QRVO', ' TCOM', ' ROIC', ' CVS', ' NOV', ' GM', ' MCO', ' LSXMK', ' TKA', ' 1COV', ' DBK', ' DB1', ' FME', ' CON', ' HEN3', ' ALV', ' LLOY', ' RR', ' IAG', ' BARC', ' GLEN', ' HSBA', ' TSCO', ' NWG', ' SMDS', ' RDSB', ' STAN', ' TW', 
 ' AV', ' BATS', ' NOK', ' QS', ' TDOC', ' PZZA', ' BB', ' LI', ' QQQ', ' SCR', ' ARKK', ' WAMCX', ' IEC', ' TCEHY', ' HLT', ' PINS', ' BIOPX', ' TWLO', ' UPLD', ' W', ' TNC', ' MPGFX', ' MAT', ' FCX', ' IAC', ' ETSY', ' PTON', ' JAGX', ' CCIV', 
@@ -109,7 +109,9 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 ' ES=F', ' NQ=F', ' RTY=F', ' ^FTSE', ' ^CMC200', ' PDD', ' BIDU', ' VIPS', ' WB', ' YY', ' DADA', ' ZH', ' DOYU', ' DAO', ' SOGO', ' BZUN', ' CANG', ' SOHU', ' JFIN', ' LIZI', ' BLCT',
 ' JWEL', ' OCG', ' JD', ' KWEB', ' CQQQ', ' KBA', ' MCHI', ' CHIQ', ' 03690', ' QTEC', ' IXN', ' IGV', ' FTEC', ' IYW', ' FDN', ' VGT', ' XLK', ' XOM', ' VOO', ' ESGU', ' O', ' IPO', ' LTC', ' STAG', ' DX', ' MAIN', ' PSEC', ' GLAD', ' GOOD',
 ' DSL', ' FOF', ' GLD', ' TEAF', ' VCSH', ' YELP', ' TTD', ' ZG', ' MMC', ' RH', ' ADJ.DE', ' PAT.DE', ' TLG.DE', ' TEG.DE', ' DWNI.DE', ' AOX.DE', ' HHFA.DE', ' HABA.DE', ' INS.F', ' IVZ', ' BRPHF', ' FUTU', ' OXY', ' O1E.SG', ' POQ.F', ' B7BA.SG',
-' DBK.DE', ' SIGL', ' SAX.DE', ' H50E.L', ' H5E.DE', ' CVCO', ' D2BA.HM') 
+' DBK.DE', ' SIGL', ' SAX.DE', ' H50E.L', ' H5E.DE', ' CVCO', ' D2BA.HM', ' XLE', ' SDGR', ' UBER', ' LILA', ' LILAK', ' BXP') 
+
+
 
 
 selected_stock = st.selectbox('Select stock you want to predict', stocks)
