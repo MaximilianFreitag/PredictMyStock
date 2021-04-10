@@ -62,7 +62,6 @@ st.markdown("<h5 style='text-align: center; color: black;'>                 </h5
 
 
 
-
 stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', ' ORCL', ' SNPS', ' VRSN', ' ACN', ' IBM', ' CRM', ' NOW', ' FIS', ' FISV', ' ADSK', ' INTU', ' COMMU', ' CSCO', ' AMAT', ' APH', ' HPQ', ' MSI', ' V', ' DIS',
 ' CMCSA', ' VZ', ' T', ' TMUS', ' NFLX', ' CHTR', ' NVDA', ' AVGO', ' QCOM', ' TXN', ' MU', ' AMD', ' XLNX', ' MCHP', ' ADI', ' JPM', ' BAC', ' BRK-B', ' AXP', ' COF', ' C', ' WFC', ' USB', ' PNC', ' MS', ' GS', ' SCHW', ' RF', ' ICE', ' SPGI',
 ' CME', ' MSCI', ' BLK', ' BK', ' STT', ' AON', ' MET', ' GL', ' L', ' BSX', ' BIO', ' EW', ' MDT', ' SYK', ' ABT', ' TMO', ' DHR', ' A', ' IQV', ' MTD', ' PFE', ' JNJ', ' MRK', ' ABBV', ' AMGN', ' GILD',
@@ -112,7 +111,7 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 ' DSL', ' FOF', ' GLD', ' TEAF', ' VCSH', ' YELP', ' TTD', ' ZG', ' MMC', ' RH', ' ADJ.DE', ' PAT.DE', ' TLG.DE', ' TEG.DE', ' DWNI.DE', ' AOX.DE', ' HHFA.DE', ' HABA.DE', ' INS.F', ' IVZ', ' BRPHF', ' FUTU', ' OXY', ' O1E.SG', ' POQ.F', ' B7BA.SG',
 ' DBK.DE', ' SIGL', ' SAX.DE', ' H50E.L', ' H5E.DE', ' CVCO', ' D2BA.HM', ' XLE', ' SDGR', ' UBER', ' LILA', ' LILAK', ' BXP', ' URG', ' DNN', ' UUUU', ' CCJ', ' NXE', ' UEC', ' KWS.DE', ' SKB.DE', ' CWC.DE', ' STLD', ' NUE', ' TX', ' SQ',
 ' GPN', ' U', ' CRWD', ' NET', ' CSGP', ' LBRDK', ' VUG', ' CCL', ' SAIC', ' HHC', ' LOV', ' SRG', ' ESTC', ' PFSI', ' GTYH', ' MAXR', ' ADV', ' AHCO', ' SMHI', ' GOCO', ' APO', ' KEYS', ' OSPN', ' ANF', ' VICI', ' KDP', ' CMI', ' NLS',
-' SONO', ' NLS', ' NEM', ' DBI', ' OSPN') 
+' SONO', ' ED', ' SPG', ' ATEX', ' FAST', ' IRWD', ' OTIS', ' VTA', ' NSC', ' ATGE', ' FUBO', ' CET', ' CERN', ' HBB', ' W', ' DXC', ' FPH', ' ORCL', ' SRGA', ' GTX', ' FCNCA', ' ORI', ' EDP', ' EPD') 
 
 
 
