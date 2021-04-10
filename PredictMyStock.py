@@ -55,7 +55,7 @@ st.markdown("<h2 style='text-align: center; color: black;'>Enter your stock and 
 
 #https://ibb.co/FqhFwD3
 
-st.markdown("<h5 style='text-align: center; color: black;'>(Please note that the results are not a guarantee and you buy stocks at your own risk. With this project I wanted to enable people to apply machine learning to their stocks. If an error occurs the stock is not in my stock list. Prices are in US dollars. Version 2.0 Added cryptocurrencies BTC-USD)</h5>", unsafe_allow_html=True)
+st.markdown("<h5 style='text-align: center; color: black;'>(Please note that the results are not a guarantee and you buy stocks at your own risk. With this project I wanted to enable people to apply machine learning to their stocks. If an error occurs the stock is not in my stock list. Prices are in US dollars. I also added crypto currencies </h5>", unsafe_allow_html=True)
 
 st.markdown("<h5 style='text-align: center; color: black;'>                 </h5>", unsafe_allow_html=True)
 
@@ -116,7 +116,7 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 
 
 
-selected_stock = st.selectbox('Select stock you want to predict', stocks)
+selected_stock = st.selectbox('Select stock ticker symbol for the stock you want to predict', stocks)
 
 n_years = st.slider('Years of prediction:', 1, 2)
 period = n_years * 365
@@ -201,11 +201,5 @@ st.markdown(link, unsafe_allow_html=True)
 link = '[Github Repo](https://github.com/facebook/prophet)'
 st.markdown(link, unsafe_allow_html=True)
 
-
-
-
-# In[ ]:
-
-
-
-
+link = '[Activity of super investors](https://www.dataroma.com/m/home.php)'
+st.markdown(link, unsafe_allow_html=True)
