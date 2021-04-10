@@ -174,6 +174,8 @@ st.markdown("<h2 style='text-align: center; color: white;'>   </h2>", unsafe_all
 #st.write(f'Forecast plot for {n_years} year/s')
 st.markdown("<h2 style='text-align: center; color: black;'>Forecast plot </h2>", unsafe_allow_html=True)
 st.markdown("<h3 style='text-align: center; color: black;'>You can use the slider to select the range of years </h3>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: center; color: black;'>Data entries above the blue line = overvalued </h3>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: center; color: black;'>Data entries underneath the blue line = undervalued </h3>", unsafe_allow_html=True)
 fig1 = plot_plotly(m, forecast)
 st.plotly_chart(fig1)
 
