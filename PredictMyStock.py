@@ -106,8 +106,8 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 ' DSL', ' FOF', ' GLD', ' TEAF', ' VCSH', ' YELP', ' TTD', ' ZG', ' MMC', ' RH', ' ADJ.DE', ' PAT.DE', ' TLG.DE', ' TEG.DE', ' DWNI.DE', ' AOX.DE', ' HHFA.DE', ' HABA.DE', ' INS.F', ' IVZ', ' BRPHF', ' FUTU', ' OXY', ' O1E.SG', ' POQ.F', ' B7BA.SG',
 ' DBK.DE', ' SIGL', ' SAX.DE', ' H50E.L', ' H5E.DE', ' CVCO', ' D2BA.HM', ' XLE', ' SDGR', ' UBER', ' LILA', ' LILAK', ' BXP', ' URG', ' DNN', ' UUUU', ' CCJ', ' NXE', ' UEC', ' KWS.DE', ' SKB.DE', ' CWC.DE', ' STLD', ' NUE', ' TX', ' SQ',
 ' GPN', ' U', ' CRWD', ' NET', ' CSGP', ' LBRDK', ' VUG', ' CCL', ' SAIC', ' HHC', ' LOV', ' SRG', ' ESTC', ' PFSI', ' GTYH', ' MAXR', ' ADV', ' AHCO', ' SMHI', ' GOCO', ' APO', ' KEYS', ' OSPN', ' ANF', ' VICI', ' KDP', ' CMI', ' NLS',
-' SONO', ' ED', ' SPG', ' ATEX', ' FAST', ' IRWD', ' OTIS', ' VTA', ' NSC', ' ATGE', ' FUBO', ' CET', ' CERN', ' HBB', ' W', ' DXC', ' FPH', ' ORCL', ' SRGA', ' GTX', ' FCNCA', ' ORI', ' EDP', ' EPD', ' TALO', ' YALA', ' LRCX', ' DEN', ' ATKR', ' ALLY', ' LRCX',
-' JEF', ' SIBN', ' ATKR', ' TCS', ' MBUU') 
+' SONO', ' ED', ' SPG', ' ATEX', ' FAST', ' IRWD', ' OTIS', ' VTA', ' NSC', ' ATGE', ' FUBO', ' CET', ' CERN', ' HBB', ' W', ' DXC', ' FPH', ' ORCL', ' SRGA', ' GTX', ' FCNCA', ' ORI', ' EDP', ' EPD', ' TALO', ' YALA', ' LRCX', ' DEN', ' ALLY', ' LRCX',
+' JEF', ' SIBN', ' ATKR', ' TCS', ' MBUU', ' VWS', ' ISRG', ' SJM', ' NVT', ' PGR', ' NTRS', ' OMC', ' AN', ' ATCO', ' GRBK') 
 
 
 
@@ -198,3 +198,7 @@ st.markdown(link, unsafe_allow_html=True)
 
 link = '[Activity of super investors](https://www.dataroma.com/m/home.php)'
 st.markdown(link, unsafe_allow_html=True)
+
+
+
+st.markdown("<h4 style='text-align: center; color: black;'>Use my app as a tool to guide your decisions not as the final answer. There are so many factors influecing the stock market. Whether Elon Musk tweets to use signal and everyone agrees to buy a random stock named signal that has nothing to do with the messenger app or antagonist behaviour like people massively betting against hedgefunds on Gamestop stock, these activities are hard to predict. But ending with a positive thought, I must say that I see correlations between my predictions and people's behaviour in the stock market. Buy the roumour, sell the news. Over valued stocks in my predictions are oftentimes in the news or they are mentioned in economic newspapers as a buy recommendation. Think rational, use statistics as in my app, evaluate the numbers and hold.    </h4>", unsafe_allow_html=True)
