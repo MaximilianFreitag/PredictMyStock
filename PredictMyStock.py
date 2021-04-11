@@ -201,4 +201,23 @@ st.markdown(link, unsafe_allow_html=True)
 
 
 
-st.markdown("<h4 style='text-align: center; color: black;'>Use my app as a tool to guide your decisions not as the final answer. There are so many factors influecing the stock market. Whether Elon Musk tweets to use signal and everyone agrees to buy a random stock named signal that has nothing to do with the messenger app or antagonist behaviour like people massively betting against hedgefunds on Gamestop stock, these activities are hard to predict. But ending with a positive thought, I must say that I see correlations between my predictions and people's behaviour in the stock market. Buy the roumour, sell the news. Over valued stocks in my predictions are oftentimes in the news or they are mentioned in economic newspapers as a buy recommendation. Think rational, use statistics as in my app, evaluate the numbers and hold.    </h4>", unsafe_allow_html=True)
+st.markdown("<h4 style='text-align: center; color: black;'>________________________________________________________________________________________________________________________________</h4>", unsafe_allow_html=True)
+
+st.markdown("<h4 style='text-align: center; color: black;'>Use my app as a tool to guide your decisions not as the final answer. There are so many factors influencing the stock market.      </h4>", unsafe_allow_html=True)
+
+st.markdown("<h4 style='text-align: center; color: black;'>Whether Elon Musk tweets to use signal and everyone agrees to buy a random stock named signal that has nothing to do with the messenger app or antagonist behaviour like people massively betting against hedgefunds on Gamestop stock, these activities are hard to predict. </h4>", unsafe_allow_html=True)
+
+
+st.markdown("<h4 style='text-align: center; color: black;'>My predictions is saying that there are so many overvalued stocks right now that we are heading to inflation right now. Buyers are getting greedy right now and the stock market will crash most likely in the upcoming years. </h4>", unsafe_allow_html=True)
+
+
+st.markdown("<h4 style='text-align: center; color: black;'>But ending with a positive thought, I must say that I see correlations between my predictions and people's behaviour in the stock market. Buy the roumour, sell the news. Over valued stocks in my predictions are oftentimes in the news or they are mentioned in economic newspapers as a buy recommendation. Think rational, use statistics as in my app, evaluate the numbers and hold. </h4>", unsafe_allow_html=True)
+
+
+
+
+
+
+
+
+
