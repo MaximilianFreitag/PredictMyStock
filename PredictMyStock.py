@@ -215,7 +215,7 @@ st.markdown("<h3 style='text-align: center; color: black;'>Inflation: </h3>", un
 
 
 
-st.markdown("<h4 style='text-align: center; color: black;'>My predictions are saying that there are so many overvalued stocks right now that we are heading to inflation right now. Buyers are getting greedy right now and the stock market will crash most likely in the upcoming years. </h4>", unsafe_allow_html=True)
+st.markdown("<h4 style='text-align: center; color: black;'>My predictions are saying that there are so many overvalued stocks that we are heading towards inflation. Buyers are getting greedy right now and a market crash is not that unlikely. </h4>", unsafe_allow_html=True)
 
 
 st.markdown("<h4 style='text-align: center; color: black;'>There must be a counter value to these rising stocks. People invest in real estate while at the same time the unemployment rate rises and people can't pay their rent anymore. People are investing into businesses and expect the stock to rise while at the same time businesses keep fighting for their existence because of the pandemic...</h4>", unsafe_allow_html=True)
