@@ -110,7 +110,7 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 ' SONO', ' ED', ' SPG', ' ATEX', ' FAST', ' IRWD', ' OTIS', ' VTA', ' NSC', ' ATGE', ' FUBO', ' CET', ' CERN', ' HBB', ' W', ' DXC', ' FPH', ' ORCL', ' SRGA', ' GTX', ' FCNCA', ' ORI', ' EDP', ' EPD', ' TALO', ' YALA', ' LRCX', ' DEN', ' ALLY', ' LRCX',
 ' JEF', ' SIBN', ' ATKR', ' TCS', ' MBUU', ' VWS', ' ISRG', ' SJM', ' NVT', ' PGR', ' NTRS', ' OMC', ' AN', ' ATCO', ' GRBK', ' NGA', ' BNGO', ' BFT', ' SPWR', ' MVIS', ' CAPA', ' CLII', ' THCX', ' Z', ' SPRT', ' LAZR', ' UPST', ' RH', ' INTC', ' INX',
 ' PSAC', ' ENPH', ' LI', ' FSLY', ' SSPK', ' AABB', ' LMND', ' MP', ' SPY', ' DYAI', ' RCKY', ' SLQD', ' PLAY', ' GGTTF', ' KDSS', ' RDFN', ' CCL', ' LTUM', ' TMBR', ' ARCT', ' PLNHF', ' EYES', ' FLT', ' IP', ' FTNT', ' OM', ' SHV', ' XLV', ' THO', ' AGRX',
-' HOFV', ' GHVI', ' CPNG', ' 5Q5.F', ' BC8.DE', ' NEM.DE', ' QIA.DE', ' COK.DE', ' SOW.DE', ' CON.DE', ' VOW.DE', ' DB1.DE') 
+' HOFV', ' GHVI', ' CPNG', ' 5Q5.F', ' BC8.DE', ' NEM.DE', ' QIA.DE', ' COK.DE', ' SOW.DE', ' CON.DE', ' VOW.DE', ' DB1.DE', ' STOR', ' IRM', ' APTS', ' NLY', ' NRZ', ' AFL', ' TD', ' TROW', ' LQT', ' BNDX', ' IEF' ' IEI', ' SHY', ' EL') 
 
 
 
@@ -204,16 +204,19 @@ link = '[Activity of super investors](https://www.dataroma.com/m/home.php)'
 st.markdown(link, unsafe_allow_html=True)
 
 
+st.markdown("<h2 style='text-align: center; color: white;'>   </h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center; color: white;'>  </h2>", unsafe_allow_html=True)
+
 
 st.markdown("<h4 style='text-align: center; color: black;'>________________________________________________________________________________________________________________________________</h4>", unsafe_allow_html=True)
 
 st.markdown("<h4 style='text-align: center; color: black;'>                                                                                                                           </h4>", unsafe_allow_html=True)
 
-st.markdown("<h4 style='text-align: center; color: black;'>Use my app as a tool to guide your decisions not as the final answer. There are so many factors influencing the stock market.      </h4>", unsafe_allow_html=True)
+st.markdown("<h4 style='text-align: center; color: black;'>Use my app as a longterm tool to guide your decisions, not as a short final answer to make quick profits. There are so many factors influencing the stock market.      </h4>", unsafe_allow_html=True)
 
 st.markdown("<h4 style='text-align: center; color: black;'>Whether Elon Musk tweets to use signal and everyone agrees to buy a random stock named signal that has nothing to do with the messenger app or antagonist behaviour like people massively betting against hedgefunds on the Gamestop stock, these activities are hard to predict. </h4>", unsafe_allow_html=True)
 
-
+st.markdown("<h4 style='text-align: center; color: black;'>Some basic tips: Stay away from trading. Hold your stocks. Don't panic sell when your stocks hit a low phase. And inform yourself about the company you are invested in to know the risks.  </h4>", unsafe_allow_html=True)
 
 st.markdown("<h3 style='text-align: center; color: black;'>Inflation: </h3>", unsafe_allow_html=True)
 
@@ -227,12 +230,4 @@ st.markdown("<h4 style='text-align: center; color: black;'>There must be a count
 
 
 st.markdown("<h4 style='text-align: center; color: black;'>But ending with a positive thought, I must say that I see correlations between my predictions and people's behaviour in the stock market. Buy the roumour, sell the news. Over valued stocks in my predictions are oftentimes in the news or they are mentioned in economic newspapers as a buy recommendation. Think rational, use statistics as in my app, evaluate the numbers and hold. </h4>", unsafe_allow_html=True)
-
-
-
-
-
-
-
-
 
