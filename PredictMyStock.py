@@ -57,6 +57,7 @@ st.markdown("<h5 style='text-align: center; color: black;'>                 </h5
 
 
 
+
 stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', ' ORCL', ' SNPS', ' VRSN', ' ACN', ' IBM', ' CRM', ' NOW', ' FIS', ' FISV', ' ADSK', ' INTU', ' COMMU', ' CSCO', ' AMAT', ' APH', ' HPQ', ' MSI', ' V', ' DIS',
 ' CMCSA', ' VZ', ' T', ' TMUS', ' NFLX', ' CHTR', ' NVDA', ' AVGO', ' QCOM', ' TXN', ' MU', ' AMD', ' XLNX', ' MCHP', ' ADI', ' JPM', ' BAC', ' BRK-B', ' AXP', ' COF', ' C', ' WFC', ' USB', ' PNC', ' MS', ' GS', ' SCHW', ' RF', ' ICE', ' SPGI',
 ' CME', ' MSCI', ' BLK', ' BK', ' STT', ' AON', ' MET', ' GL', ' L', ' BSX', ' BIO', ' EW', ' MDT', ' SYK', ' ABT', ' TMO', ' DHR', ' A', ' IQV', ' MTD', ' PFE', ' JNJ', ' MRK', ' ABBV', ' AMGN', ' GILD',
@@ -101,13 +102,16 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 ' GASS', ' MERC', ' CGEM', ' AMR', ' JT', ' VCTR', ' CTG', ' VIVO', ' EXPR', ' HOLX', ' BWA', ' DHI', ' SBSW', ' EBAY', ' LEN', ' CE', ' TLK', ' SNP', ' TEF', ' EBR-B', ' EBR', ' PPL', ' SHG', ' PKX', ' ORAN', ' VIV', ' REGN', ' FE',
 ' FMS', ' FRE.DE', ' 11C.F', ' PSHD.L', ' GXI.DE', ' HFG.DE', ' PLUG.DE', ' COIN', ' SEED', ' NOEC', ' COUR', ' AVD', ' IPI', ' EEM', ' MFS=F', ' MME=F', ' EWZ', ' EFA', ' DOCN', ' OLO', ' ACVA', ' ACHL', ' IMCR', ' TUYA', ' DSGN', ' IO', ' SEEL', 
 ' BBQ', ' FIXX', ' CXW', ' GALT', ' MAXN', ' GRAY', ' LHX', ' ODT', ' LW', ' LHDX', ' ISIG', ' BSIG', ' NFH', ' JRO', ' OUST', ' TPCO', ' ALRM', ' CAG', ' BNSO', ' JDCMF', ' YUMC', ' EDU', ' TAL', ' WEED.TO', ' TAB', ' TGOD.TO', ' TGODF', ' YM=F', 
-' ES=F', ' NQ=F', ' RTY=F', ' ^FTSE', ' ^CMC200', ' PDD', ' BIDU', ' VIPS', ' WB', ' YY', ' DADA', ' ZH', ' DOYU', ' DAO', ' SOGO', ' BZUN', ' CANG', ' SOHU', ' JFIN', ' LIZI', ' BLCT',
+' ES=F', ' NQ=F', ' RTY=F', ' ^FTSE', ' ^CMC200', ' PDD', ' BIDU', ' VIPS', ' WB', ' YY', ' DADA', ' ZH', ' DOYU', ' DAO', ' SOGO', ' BZUN', ' CANG', ' SOHU', ' JFIN', ' LIZI', ' BLCT', ' MTD', ' ILMN', ' USDRUB=X', ' USDJPY=X', ' USDCAD=X',
 ' JWEL', ' OCG', ' JD', ' KWEB', ' CQQQ', ' KBA', ' MCHI', ' CHIQ', ' 03690', ' QTEC', ' IXN', ' IGV', ' FTEC', ' IYW', ' FDN', ' VGT', ' XLK', ' XOM', ' VOO', ' ESGU', ' O', ' IPO', ' LTC', ' STAG', ' DX', ' MAIN', ' PSEC', ' GLAD', ' GOOD',
 ' DSL', ' FOF', ' GLD', ' TEAF', ' VCSH', ' YELP', ' TTD', ' ZG', ' MMC', ' RH', ' ADJ.DE', ' PAT.DE', ' TLG.DE', ' TEG.DE', ' DWNI.DE', ' AOX.DE', ' HHFA.DE', ' HABA.DE', ' INS.F', ' IVZ', ' BRPHF', ' FUTU', ' OXY', ' O1E.SG', ' POQ.F', ' B7BA.SG',
 ' DBK.DE', ' SIGL', ' SAX.DE', ' H50E.L', ' H5E.DE', ' CVCO', ' D2BA.HM', ' XLE', ' SDGR', ' UBER', ' LILA', ' LILAK', ' BXP', ' URG', ' DNN', ' UUUU', ' CCJ', ' NXE', ' UEC', ' KWS.DE', ' SKB.DE', ' CWC.DE', ' STLD', ' NUE', ' TX', ' SQ',
 ' GPN', ' U', ' CRWD', ' NET', ' CSGP', ' LBRDK', ' VUG', ' CCL', ' SAIC', ' HHC', ' LOV', ' SRG', ' ESTC', ' PFSI', ' GTYH', ' MAXR', ' ADV', ' AHCO', ' SMHI', ' GOCO', ' APO', ' KEYS', ' OSPN', ' ANF', ' VICI', ' KDP', ' CMI', ' NLS',
 ' SONO', ' ED', ' SPG', ' ATEX', ' FAST', ' IRWD', ' OTIS', ' VTA', ' NSC', ' ATGE', ' FUBO', ' CET', ' CERN', ' HBB', ' W', ' DXC', ' FPH', ' ORCL', ' SRGA', ' GTX', ' FCNCA', ' ORI', ' EDP', ' EPD', ' TALO', ' YALA', ' LRCX', ' DEN', ' ALLY', ' LRCX',
-' JEF', ' SIBN', ' ATKR', ' TCS', ' MBUU', ' VWS', ' ISRG', ' SJM', ' NVT', ' PGR', ' NTRS', ' OMC', ' AN', ' ATCO', ' GRBK') 
+' JEF', ' SIBN', ' ATKR', ' TCS', ' MBUU', ' VWS', ' ISRG', ' SJM', ' NVT', ' PGR', ' NTRS', ' OMC', ' AN', ' ATCO', ' GRBK', ' NGA', ' BNGO', ' BFT', ' SPWR', ' MVIS', ' CAPA', ' CLII', ' THCX', ' Z', ' SPRT', ' LAZR', ' UPST', ' RH', ' INTC', ' INX',
+' PSAC', ' ENPH', ' LI', ' FSLY', ' SSPK', ' AABB', ' LMND', ' MP', ' SPY', ' DYAI', ' RCKY', ' SLQD', ' PLAY', ' GGTTF', ' KDSS', ' RDFN', ' CCL', ' LTUM', ' TMBR', ' ARCT', ' PLNHF', ' EYES', ' FLT', ' IP', ' FTNT', ' OM', ' SHV', ' XLV', ' THO', ' AGRX',
+' HOFV', ' GHVI', ' CPNG', ' 5Q5.F', ' BC8.DE', ' NEM.DE', ' QIA.DE', ' COK.DE', ' SOW.DE', ' CON.DE', ' VOW.DE', ' DB1.DE') 
+
 
 
 
@@ -215,7 +219,7 @@ st.markdown("<h3 style='text-align: center; color: black;'>Inflation: </h3>", un
 
 
 
-st.markdown("<h4 style='text-align: center; color: black;'>My predictions are saying that there are so many overvalued stocks that we are heading towards inflation. Buyers are getting greedy right now and a market crash is not that unlikely. </h4>", unsafe_allow_html=True)
+st.markdown("<h4 style='text-align: center; color: black;'>My predictions are saying that there are so many overvalued stocks that we are heading towards inflation in the next years. Buyers are getting greedy right now and a market crash is not that unlikely. </h4>", unsafe_allow_html=True)
 
 
 st.markdown("<h4 style='text-align: center; color: black;'>There must be a counter value to these rising stocks. People invest in real estate while at the same time the unemployment rate rises and people can't pay their rent anymore. People are investing into businesses and expect the stock to rise while at the same time businesses keep fighting for their existence because of the pandemic...</h4>", unsafe_allow_html=True)
