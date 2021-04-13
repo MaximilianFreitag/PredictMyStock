@@ -57,7 +57,6 @@ st.markdown("<h5 style='text-align: center; color: black;'>                 </h5
 
 
 
-
 stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', ' ORCL', ' SNPS', ' VRSN', ' ACN', ' IBM', ' CRM', ' NOW', ' FIS', ' FISV', ' ADSK', ' INTU', ' COMMU', ' CSCO', ' AMAT', ' APH', ' HPQ', ' MSI', ' V', ' DIS',
 ' CMCSA', ' VZ', ' T', ' TMUS', ' NFLX', ' CHTR', ' NVDA', ' AVGO', ' QCOM', ' TXN', ' MU', ' AMD', ' XLNX', ' MCHP', ' ADI', ' JPM', ' BAC', ' BRK-B', ' AXP', ' COF', ' C', ' WFC', ' USB', ' PNC', ' MS', ' GS', ' SCHW', ' RF', ' ICE', ' SPGI',
 ' CME', ' MSCI', ' BLK', ' BK', ' STT', ' AON', ' MET', ' GL', ' L', ' BSX', ' BIO', ' EW', ' MDT', ' SYK', ' ABT', ' TMO', ' DHR', ' A', ' IQV', ' MTD', ' PFE', ' JNJ', ' MRK', ' ABBV', ' AMGN', ' GILD',
@@ -110,9 +109,13 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 ' SONO', ' ED', ' SPG', ' ATEX', ' FAST', ' IRWD', ' OTIS', ' VTA', ' NSC', ' ATGE', ' FUBO', ' CET', ' CERN', ' HBB', ' W', ' DXC', ' FPH', ' ORCL', ' SRGA', ' GTX', ' FCNCA', ' ORI', ' EDP', ' EPD', ' TALO', ' YALA', ' LRCX', ' DEN', ' ALLY', ' LRCX',
 ' JEF', ' SIBN', ' ATKR', ' TCS', ' MBUU', ' VWS', ' ISRG', ' SJM', ' NVT', ' PGR', ' NTRS', ' OMC', ' AN', ' ATCO', ' GRBK', ' NGA', ' BNGO', ' BFT', ' SPWR', ' MVIS', ' CAPA', ' CLII', ' THCX', ' Z', ' SPRT', ' LAZR', ' UPST', ' RH', ' INTC', ' INX',
 ' PSAC', ' ENPH', ' LI', ' FSLY', ' SSPK', ' AABB', ' LMND', ' MP', ' SPY', ' DYAI', ' RCKY', ' SLQD', ' PLAY', ' GGTTF', ' KDSS', ' RDFN', ' CCL', ' LTUM', ' TMBR', ' ARCT', ' PLNHF', ' EYES', ' FLT', ' IP', ' FTNT', ' OM', ' SHV', ' XLV', ' THO', ' AGRX',
-' HOFV', ' GHVI', ' CPNG', ' 5Q5.F', ' BC8.DE', ' NEM.DE', ' QIA.DE', ' COK.DE', ' SOW.DE', ' CON.DE', ' VOW.DE', ' DB1.DE', ' STOR', ' IRM', ' APTS', ' NLY', ' NRZ', ' AFL', ' TD', ' TROW', ' LQT', ' BNDX', ' IEF', ' IEI', ' SHY', ' EL') 
-
-
+' HOFV', ' GHVI', ' CPNG', ' 5Q5.F', ' BC8.DE', ' NEM.DE', ' QIA.DE', ' COK.DE', ' SOW.DE', ' CON.DE', ' VOW.DE', ' DB1.DE', ' STOR', ' IRM', ' APTS', ' NLY', ' NRZ', ' AFL', ' TD', ' TROW', ' LQT', ' BNDX', ' IEF', ' IEI', ' SHY', ' EL',
+' AEON-USD', ' NPC-USD', ' GBYTE-USD', ' OWC-USD', ' ARRR-USD', ' MCO-USD', ' ATB-USD', ' FLASH-USD', ' DIME-USD', ' SFT-USD', ' EMC2-USD', ' GRC-USD', ' BCA-USD', ' DCY-USD', ' META-USD', ' NYZO-USD', ' MGO-USD', ' ALIAS-USD', ' CET-USD', ' COMP1-USD',
+' BDX-USD', ' BRC-USD', ' PART-USD', ' PAI-USD', ' NMC-USD', ' XAS-USD', ' CURE-USD', ' CUT-USD', ' BCH-USD', ' FRST-USD', ' DDK-USD', ' HNC-USD', ' FSN-USD', ' DFI-USD', ' KDA-USD', ' LOKI-USD', ' PLC-USD', ' GAS-USD', ' DTEP-USD', ' OTO-USD',
+' RINGX-USD', ' PI-USD', ' NULS-USD', ' ZVC-USD', ' CCA-USD', ' DERO-USD', ' PLC-USD', ' XMC-USD', ' MINT-USD', ' NVCR', ' DFIFF', ' MSTR', ' ANGI', ' NVAX', ' CSPCY', ' LTCN', ' FLGT', ' LKNCY', ' HMBL', ' KHOTF', ' SSL', ' OSTK', ' TWST', ' EM', ' SUMO',
+' MRRTY', ' AJMPF', ' TTM', ' CDE', ' IRTC', ' OMAB', ' NSTG', ' ALBKF', ' SPT', ' PLAN', ' DOCU', ' USNZY', ' TEAM', ' HL', ' VNOM', ' ACH', ' AGI', ' SKM', ' ACOPF', ' MYTE', ' WISH', ' TKAYY', ' OLK', ' RARE', ' TRUMY', ' UPWK', ' GGB', ' ATDRY', ' SSTK',
+' TXG', ' SYIEY', ' PPRUY', ' KC', ' CRSP', ' TMVWY', ' WIX', ' VIR', ' NPSNY', ' SBRCY', ' NG', ' AHCO', ' HOKCF', ' AUOTY', ' ORGO', ' XISHY', ' CDLX', ' SANA', ' PPERF', ' TIL', ' ADS', ' ARVL', ' YNDX', ' AEIS', ' RDY', ' CROX', ' EBS', ' SAGE', ' LGORF',  
+' WHD', ' VCEL', ' UAA', ' OI', ' SYF', ' BKE', ' GDRX', ' JWN', ' MATX', ' CADE', ' JW-A', ' WRK', ' THRM', ' MPNGY')
 
 
 selected_stock = st.selectbox('Select the ticker symbol for the stock you want to predict', stocks)
