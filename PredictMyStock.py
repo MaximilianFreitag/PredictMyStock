@@ -77,7 +77,7 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 ' CGC', ' SMG', ' GWPH', ' TLRY', ' CRON', ' ACB', ' NBEV', ' CRBP', ' TGODF', ' TRTC', ' CANN', ' MJ', ' MSBHF', ' MITSY', ' SSUMY', ' ITOCY', ' MARUY', ' TGC', ' TCDA', ' REPH', ' TPIC', ' GTT', ' ANGN', ' RAAS', ' HTOO', ' AGIO', ' SQQQ', ' SVC', 
 ' CDNA', ' COKE', ' AVXL', ' XTNT', ' AFI', ' FSR', ' QUIK', ' CD', ' RILY', ' SLCA', ' LMAT', ' HOVNP', ' QEMM', ' CNNE', ' AIG', ' NURE', ' RFDA', ' PMAR', ' UHAL', ' FLQL', ' ABST', ' ACMR', ' ADTN', ' AEHR', ' AEY', ' AEYE', ' AFRM', ' AGMH', 
 ' AGYS', ' AI', ' AKAM', ' AIRG', ' ALGM', ' ALLT', ' ALOT', ' ALTR', ' ALYA', ' AMBA', ' AMST', ' AMSWA', ' ANET', ' ANSS', ' ANY', ' AOSL', ' APH', ' API', ' APPN', ' ARRY', ' APPS', ' ARW', ' ASUR', ' ASYS', ' ATC', ' ATEN', ' ATOM', ' AUDC', 
-' AUUD', ' AVGO', ' AVNW', ' AVT', ' AXTI', ' AYX', ' AZPN', ' BDR', ' BCOV', ' BELFB', ' BHE', ' BILL', ' BKI', ' BKTI', ' ABR', ' AAXJ', ' AAME', ' RDS.A', ' RDS.B', ' NTDOY', ' AVID', ' TTWO', ' CCOEF', ' PLTK', ' ZNGA', ' SKLZ', ' UBSFY', ' OTGLY', 
+' AUUD', ' AVNW', ' AVT', ' AXTI', ' AYX', ' AZPN', ' BDR', ' BCOV', ' BELFB', ' BHE', ' BILL', ' BKI', ' BKTI', ' ABR', ' AAXJ', ' AAME', ' RDS.A', ' RDS.B', ' NTDOY', ' AVID', ' TTWO', ' CCOEF', ' PLTK', ' ZNGA', ' SKLZ', ' UBSFY', ' OTGLY', 
 ' GLUU', ' TSCRD', ' GRVY', ' NGMS', ' ENGMF', ' MSGM', ' SCPL', ' BRGGF', ' INSE', ' RNWK', ' MLLLF', ' VS', ' GMGI', ' SLGG', ' BHAT', ' GIGM', ' YVR', ' F', ' RKT', ' TSNP', ' RLLCF', ' BAYP', ' LPSN', ' TRIP', ' WW', ' BLUE', ' SFIX', ' MMYT', 
 ' VICR', ' DNLI', ' VST', ' ENV', ' FLR', ' SPCE', ' BKRKF', ' ZIJMF', ' FL', ' REGI', ' APPH', ' FOCS', ' ROOT', ' ADT', ' EIPAF', ' NKLA', ' ABML', ' TSNPD', ' DJI', ' IXIC', ' 9684.T', ' 9697.T', ' 9766.T', ' 7974.T', ' 3659.T', ' 7974.T', ' TOR', 
 ' OTC', ' CX', ' BECN', ' JELD', ' FRTA', ' MI', ' EME', ' BEKE', ' PLD', ' WELL', ' SPG-PJ', ' PSA-PK', ' PSA-PH', ' DLR', ' CBRE', ' WY', ' O', ' ARE', ' DLR-PJ', ' DLR-PC', ' INVH', ' ESS', ' SCCO', ' NEM', ' MLM', ' MANU', ' ASR', ' MRAAF', 
@@ -103,14 +103,14 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 ' FMS', ' FRE.DE', ' 11C.F', ' PSHD.L', ' GXI.DE', ' HFG.DE', ' PLUG.DE', ' COIN', ' SEED', ' NOEC', ' COUR', ' AVD', ' IPI', ' EEM', ' MFS=F', ' MME=F', ' EWZ', ' EFA', ' DOCN', ' OLO', ' ACVA', ' ACHL', ' IMCR', ' TUYA', ' DSGN', ' IO', ' SEEL', 
 ' BBQ', ' FIXX', ' CXW', ' GALT', ' MAXN', ' GRAY', ' LHX', ' ODT', ' LW', ' LHDX', ' ISIG', ' BSIG', ' NFH', ' JRO', ' OUST', ' TPCO', ' ALRM', ' CAG', ' BNSO', ' JDCMF', ' YUMC', ' EDU', ' TAL', ' WEED.TO', ' TAB', ' TGOD.TO', ' TGODF', ' YM=F', 
 ' ES=F', ' NQ=F', ' RTY=F', ' ^FTSE', ' ^CMC200', ' PDD', ' BIDU', ' VIPS', ' WB', ' YY', ' DADA', ' ZH', ' DOYU', ' DAO', ' SOGO', ' BZUN', ' CANG', ' SOHU', ' JFIN', ' LIZI', ' BLCT', ' MTD', ' ILMN', ' USDRUB=X', ' USDJPY=X', ' USDCAD=X',
-' JWEL', ' OCG', ' JD', ' KWEB', ' CQQQ', ' KBA', ' MCHI', ' CHIQ', ' 03690', ' QTEC', ' IXN', ' IGV', ' FTEC', ' IYW', ' FDN', ' VGT', ' XLK', ' XOM', ' VOO', ' ESGU', ' O', ' IPO', ' LTC', ' STAG', ' DX', ' MAIN', ' PSEC', ' GLAD', ' GOOD',
+' JWEL', ' OCG', ' JD', ' KWEB', ' CQQQ', ' KBA', ' MCHI', ' CHIQ', ' 03690', ' QTEC', ' IXN', ' IGV', ' FTEC', ' IYW', ' FDN', ' VGT', ' XLK', ' VOO', ' ESGU', ' O', ' IPO', ' LTC', ' STAG', ' DX', ' MAIN', ' PSEC', ' GLAD', ' GOOD',
 ' DSL', ' FOF', ' GLD', ' TEAF', ' VCSH', ' YELP', ' TTD', ' ZG', ' MMC', ' RH', ' ADJ.DE', ' PAT.DE', ' TLG.DE', ' TEG.DE', ' DWNI.DE', ' AOX.DE', ' HHFA.DE', ' HABA.DE', ' INS.F', ' IVZ', ' BRPHF', ' FUTU', ' OXY', ' O1E.SG', ' POQ.F', ' B7BA.SG',
 ' DBK.DE', ' SIGL', ' SAX.DE', ' H50E.L', ' H5E.DE', ' CVCO', ' D2BA.HM', ' XLE', ' SDGR', ' UBER', ' LILA', ' LILAK', ' BXP', ' URG', ' DNN', ' UUUU', ' CCJ', ' NXE', ' UEC', ' KWS.DE', ' SKB.DE', ' CWC.DE', ' STLD', ' NUE', ' TX', ' SQ',
 ' GPN', ' U', ' CRWD', ' NET', ' CSGP', ' LBRDK', ' VUG', ' CCL', ' SAIC', ' HHC', ' LOV', ' SRG', ' ESTC', ' PFSI', ' GTYH', ' MAXR', ' ADV', ' AHCO', ' SMHI', ' GOCO', ' APO', ' KEYS', ' OSPN', ' ANF', ' VICI', ' KDP', ' CMI', ' NLS',
 ' SONO', ' ED', ' SPG', ' ATEX', ' FAST', ' IRWD', ' OTIS', ' VTA', ' NSC', ' ATGE', ' FUBO', ' CET', ' CERN', ' HBB', ' W', ' DXC', ' FPH', ' ORCL', ' SRGA', ' GTX', ' FCNCA', ' ORI', ' EDP', ' EPD', ' TALO', ' YALA', ' LRCX', ' DEN', ' ALLY', ' LRCX',
 ' JEF', ' SIBN', ' ATKR', ' TCS', ' MBUU', ' VWS', ' ISRG', ' SJM', ' NVT', ' PGR', ' NTRS', ' OMC', ' AN', ' ATCO', ' GRBK', ' NGA', ' BNGO', ' BFT', ' SPWR', ' MVIS', ' CAPA', ' CLII', ' THCX', ' Z', ' SPRT', ' LAZR', ' UPST', ' RH', ' INTC', ' INX',
 ' PSAC', ' ENPH', ' LI', ' FSLY', ' SSPK', ' AABB', ' LMND', ' MP', ' SPY', ' DYAI', ' RCKY', ' SLQD', ' PLAY', ' GGTTF', ' KDSS', ' RDFN', ' CCL', ' LTUM', ' TMBR', ' ARCT', ' PLNHF', ' EYES', ' FLT', ' IP', ' FTNT', ' OM', ' SHV', ' XLV', ' THO', ' AGRX',
-' HOFV', ' GHVI', ' CPNG', ' 5Q5.F', ' BC8.DE', ' NEM.DE', ' QIA.DE', ' COK.DE', ' SOW.DE', ' CON.DE', ' VOW.DE', ' DB1.DE', ' STOR', ' IRM', ' APTS', ' NLY', ' NRZ', ' AFL', ' TD', ' TROW', ' LQT', ' BNDX', ' IEF' ' IEI', ' SHY', ' EL') 
+' HOFV', ' GHVI', ' CPNG', ' 5Q5.F', ' BC8.DE', ' NEM.DE', ' QIA.DE', ' COK.DE', ' SOW.DE', ' CON.DE', ' VOW.DE', ' DB1.DE', ' STOR', ' IRM', ' APTS', ' NLY', ' NRZ', ' AFL', ' TD', ' TROW', ' LQT', ' BNDX', ' IEF', ' IEI', ' SHY', ' EL') 
 
 
 
@@ -205,10 +205,14 @@ st.markdown(link, unsafe_allow_html=True)
 
 
 st.markdown("<h2 style='text-align: center; color: white;'>   </h2>", unsafe_allow_html=True)
+
 st.markdown("<h2 style='text-align: center; color: white;'>  </h2>", unsafe_allow_html=True)
 
 
-st.markdown("<h4 style='text-align: center; color: black;'>________________________________________________________________________________________________________________________________</h4>", unsafe_allow_html=True)
+st.markdown("<h4 style='text-align: center; color: black;'>________________________________________________________________________________</h4>", unsafe_allow_html=True)
+
+st.markdown("<h2 style='text-align: center; color: white;'>   </h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center; color: white;'>  </h2>", unsafe_allow_html=True)
 
 st.markdown("<h4 style='text-align: center; color: black;'>                                                                                                                           </h4>", unsafe_allow_html=True)
 
@@ -216,7 +220,7 @@ st.markdown("<h4 style='text-align: center; color: black;'>Use my app as a longt
 
 st.markdown("<h4 style='text-align: center; color: black;'>Whether Elon Musk tweets to use signal and everyone agrees to buy a random stock named signal that has nothing to do with the messenger app or antagonist behaviour like people massively betting against hedgefunds on the Gamestop stock, these activities are hard to predict. </h4>", unsafe_allow_html=True)
 
-st.markdown("<h4 style='text-align: center; color: black;'>Some basic tips: Stay away from trading. Hold your stocks. Don't panic sell when your stocks hit a low phase. And inform yourself about the company you are invested in to know the risks.  </h4>", unsafe_allow_html=True)
+st.markdown("<h4 style='text-align: center; color: black;'>Some basic tips: Stay away from trading. Hold your stocks. Don't panic sell when your stocks hit a low phase. Diversify, don't put everything into 1 or 2 stocks and inform yourself about the company you are invested in to know the risks.  </h4>", unsafe_allow_html=True)
 
 st.markdown("<h3 style='text-align: center; color: black;'>Inflation: </h3>", unsafe_allow_html=True)
 
