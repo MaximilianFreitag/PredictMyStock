@@ -193,6 +193,18 @@ st.markdown("<h2 style='text-align: center; color: white;'>   </h2>", unsafe_all
 st.markdown("<h2 style='text-align: center; color: white;'>  </h2>", unsafe_allow_html=True)
 
 
+st.markdown("<h4 style='text-align: center; color: black;'>The yearly chart is the most interesting one. It shows you the buy and sell trends for each month.      </h4>", unsafe_allow_html=True)
+
+
+st.markdown("<h4 style='text-align: center; color: black;'>Chart goes down = People were selling stocks       </h4>", unsafe_allow_html=True)
+
+
+st.markdown("<h4 style='text-align: center; color: black;'>Chart goes up = People were buying stocks       </h4>", unsafe_allow_html=True)
+
+
+st.markdown("<h2 style='text-align: center; color: white;'>   </h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center; color: white;'>  </h2>", unsafe_allow_html=True)
+
 link = '[Buy me a coffee](https://www.buymeacoffee.com/MaxMnemo)'
 st.markdown(link, unsafe_allow_html=True)
 
