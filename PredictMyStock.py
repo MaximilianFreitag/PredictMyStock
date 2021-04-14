@@ -196,11 +196,12 @@ st.markdown("<h2 style='text-align: center; color: white;'>  </h2>", unsafe_allo
 st.markdown("<h4 style='text-align: center; color: black;'>The yearly chart is the most interesting one. It shows you the buy and sell trends for each month. The weekly trend is not that interesting. It's usually from monday to friday on the lowest course because the stocks within a broker are more expensive on Saturday and Sunday due to extra fees from most brokers.       </h4>", unsafe_allow_html=True)
 
 
-st.markdown("<h4 style='text-align: center; color: black;'>Chart goes down = People were selling stocks       </h4>", unsafe_allow_html=True)
-
 st.markdown("<h2 style='text-align: center; color: white;'>   </h2>", unsafe_allow_html=True)
 
-st.markdown("<h4 style='text-align: center; color: black;'>Chart goes up = People were buying stocks       </h4>", unsafe_allow_html=True)
+st.markdown("<h4 style='text-align: center; color: black;'>Chart goes low = Stock price is lowering        </h4>", unsafe_allow_html=True)
+
+
+st.markdown("<h4 style='text-align: center; color: black;'>Chart goes up = Stock price is going up       </h4>", unsafe_allow_html=True)
 
 
 st.markdown("<h2 style='text-align: center; color: white;'>   </h2>", unsafe_allow_html=True)
