@@ -206,13 +206,9 @@ st.markdown("<h4 style='text-align: center; color: black;'>Chart goes up = Peopl
 st.markdown("<h2 style='text-align: center; color: white;'>   </h2>", unsafe_allow_html=True)
 st.markdown("<h2 style='text-align: center; color: white;'>  </h2>", unsafe_allow_html=True)
 
+
+
 link = '[Buy me a coffee](https://www.buymeacoffee.com/MaxMnemo)'
-st.markdown(link, unsafe_allow_html=True)
-
-link = '[My website](http://mnemo.uk)'
-st.markdown(link, unsafe_allow_html=True)
-
-link = '[Instagram](https://www.instagram.com/max_mnemo/)'
 st.markdown(link, unsafe_allow_html=True)
 
 link = '[Github Repo](https://github.com/facebook/prophet)'
@@ -221,7 +217,13 @@ st.markdown(link, unsafe_allow_html=True)
 link = '[Activity of super investors](https://www.dataroma.com/m/home.php)'
 st.markdown(link, unsafe_allow_html=True)
 
-link = '[AMOMs predictions (Ai driven portfolio)](https://www.dataroma.com/m/home.php)'
+link = '[Stocks that AMOM is currently holding (Ai driven portfolio)](https://qraftaietf.com/amom)'
+st.markdown(link, unsafe_allow_html=True)
+
+link = '[My website](http://mnemo.uk)'
+st.markdown(link, unsafe_allow_html=True)
+
+link = '[My Instagram self-study page](https://www.instagram.com/max_mnemo/)'
 st.markdown(link, unsafe_allow_html=True)
 
 
