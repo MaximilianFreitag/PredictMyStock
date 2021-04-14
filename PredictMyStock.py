@@ -114,8 +114,10 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 ' BDX-USD', ' BRC-USD', ' PART-USD', ' PAI-USD', ' NMC-USD', ' XAS-USD', ' CURE-USD', ' CUT-USD', ' BCH-USD', ' FRST-USD', ' DDK-USD', ' HNC-USD', ' FSN-USD', ' DFI-USD', ' KDA-USD', ' LOKI-USD', ' PLC-USD', ' GAS-USD', ' DTEP-USD', ' OTO-USD',
 ' RINGX-USD', ' PI-USD', ' NULS-USD', ' ZVC-USD', ' CCA-USD', ' DERO-USD', ' PLC-USD', ' XMC-USD', ' MINT-USD', ' NVCR', ' DFIFF', ' MSTR', ' ANGI', ' NVAX', ' CSPCY', ' LTCN', ' FLGT', ' LKNCY', ' HMBL', ' KHOTF', ' SSL', ' OSTK', ' TWST', ' EM', ' SUMO',
 ' MRRTY', ' AJMPF', ' TTM', ' CDE', ' IRTC', ' OMAB', ' NSTG', ' ALBKF', ' SPT', ' PLAN', ' DOCU', ' USNZY', ' TEAM', ' HL', ' VNOM', ' ACH', ' AGI', ' SKM', ' ACOPF', ' MYTE', ' WISH', ' TKAYY', ' OLK', ' RARE', ' TRUMY', ' UPWK', ' GGB', ' ATDRY', ' SSTK',
-' TXG', ' SYIEY', ' PPRUY', ' KC', ' CRSP', ' TMVWY', ' WIX', ' VIR', ' NPSNY', ' SBRCY', ' NG', ' AHCO', ' HOKCF', ' AUOTY', ' ORGO', ' XISHY', ' CDLX', ' SANA', ' PPERF', ' TIL', ' ADS', ' ARVL', ' YNDX', ' AEIS', ' RDY', ' CROX', ' EBS', ' SAGE', ' LGORF',  
-' WHD', ' VCEL', ' UAA', ' OI', ' SYF', ' BKE', ' GDRX', ' JWN', ' MATX', ' CADE', ' JW-A', ' WRK', ' THRM', ' MPNGY')
+' TXG', ' SYIEY', ' PPRUY', ' KC', ' CRSP', ' TMVWY', ' WIX', ' VIR', ' NPSNY', ' SBRCY', ' NG', ' HOKCF', ' AUOTY', ' ORGO', ' XISHY', ' CDLX', ' SANA', ' PPERF', ' TIL', ' ADS', ' ARVL', ' YNDX', ' AEIS', ' RDY', ' CROX', ' EBS', ' SAGE', ' LGORF',  
+' WHD', ' VCEL', ' UAA', ' OI', ' SYF', ' BKE', ' GDRX', ' JWN', ' MATX', ' CADE', ' JW-A', ' WRK', ' THRM', ' MPNGY', ' CLVLY', ' CMSQY', ' VTVT', ' MFNC', ' DMRC', ' MFCN', ' CBLI', ' MUDS', ' OBAS', ' AGC', ' BTX', ' ATXI', ' LHDX', ' GBOX',
+' UK', ' PLBY', ' GFED', ' CGA', ' AGCUU', ' AEE', ' MSB', ' CSSE', ' WCN', ' TIRX', ' OGI', ' NLSP', ' SNDL', ' CTRM', ' CNET', ' KRUS', ' SCR', ' RVPH')
+
 
 
 selected_stock = st.selectbox('Select the ticker symbol for the stock you want to predict', stocks)
