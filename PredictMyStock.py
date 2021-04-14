@@ -116,7 +116,7 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 ' MRRTY', ' AJMPF', ' TTM', ' CDE', ' IRTC', ' OMAB', ' NSTG', ' ALBKF', ' SPT', ' PLAN', ' DOCU', ' USNZY', ' TEAM', ' HL', ' VNOM', ' ACH', ' AGI', ' SKM', ' ACOPF', ' MYTE', ' WISH', ' TKAYY', ' OLK', ' RARE', ' TRUMY', ' UPWK', ' GGB', ' ATDRY', ' SSTK',
 ' TXG', ' SYIEY', ' PPRUY', ' KC', ' CRSP', ' TMVWY', ' WIX', ' VIR', ' NPSNY', ' SBRCY', ' NG', ' HOKCF', ' AUOTY', ' ORGO', ' XISHY', ' CDLX', ' SANA', ' PPERF', ' TIL', ' ADS', ' ARVL', ' YNDX', ' AEIS', ' RDY', ' CROX', ' EBS', ' SAGE', ' LGORF',  
 ' WHD', ' VCEL', ' UAA', ' OI', ' SYF', ' BKE', ' GDRX', ' JWN', ' MATX', ' CADE', ' JW-A', ' WRK', ' THRM', ' MPNGY', ' CLVLY', ' CMSQY', ' VTVT', ' MFNC', ' DMRC', ' MFCN', ' CBLI', ' MUDS', ' OBAS', ' AGC', ' BTX', ' ATXI', ' LHDX', ' GBOX',
-' UK', ' PLBY', ' GFED', ' CGA', ' AGCUU', ' AEE', ' MSB', ' CSSE', ' WCN', ' TIRX', ' OGI', ' NLSP', ' SNDL', ' CTRM', ' CNET', ' KRUS', ' SCR', ' RVPH')
+' UK', ' PLBY', ' GFED', ' CGA', ' AGCUU', ' AEE', ' MSB', ' CSSE', ' WCN', ' TIRX', ' OGI', ' NLSP', ' SNDL', ' CTRM', ' CNET', ' KRUS', ' SCR', ' RVPH', ' AMOM')
 
 
 
@@ -219,6 +219,9 @@ link = '[Github Repo](https://github.com/facebook/prophet)'
 st.markdown(link, unsafe_allow_html=True)
 
 link = '[Activity of super investors](https://www.dataroma.com/m/home.php)'
+st.markdown(link, unsafe_allow_html=True)
+
+link = '[AMOMs predictions (Ai driven portfolio)](https://www.dataroma.com/m/home.php)'
 st.markdown(link, unsafe_allow_html=True)
 
 
