@@ -223,7 +223,7 @@ st.markdown("<h4 style='text-align: center; color: black;'>Use my app as a longt
 
 st.markdown("<h4 style='text-align: center; color: black;'>Whether Elon Musk tweets to use signal and everyone agrees to buy a random stock named signal that has nothing to do with the messenger app or antagonist behaviour like people massively betting against hedgefunds on the Gamestop stock, these activities are hard to predict. </h4>", unsafe_allow_html=True)
 
-st.markdown("<h4 style='text-align: center; color: black;'>Some basic tips: Stay away from trading. Hold your stocks. Don't panic sell when your stocks hit a low phase. Diversify, don't put everything into 1 or 2 stocks and inform yourself about the company you are invested in to know the risks.  </h4>", unsafe_allow_html=True)
+st.markdown("<h4 style='text-align: center; color: black;'>Some basic tips: Stay away from day trading. Hold your stocks. Don't panic sell when your stocks hit a low phase. Diversify, don't put everything into 1 or 2 stocks and inform yourself about the company you are invested. What are the profits, market cap, does the company have competitors, is the overall branch of the company worth investing, does the company care for the future (investing in their IT infrastructure), what's the behaviour of insider trades (do people accumulate or sell stocks), is the country politically stable, what is the legal framework of the company, is the stock cyclic and volotaile or does it grow steadily,....    </h4>", unsafe_allow_html=True)
 
 st.markdown("<h3 style='text-align: center; color: black;'>Inflation: </h3>", unsafe_allow_html=True)
 
