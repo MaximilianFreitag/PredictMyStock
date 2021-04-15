@@ -49,7 +49,7 @@ st.markdown("<h2 style='text-align: center; color: black;'>Enter your stock and 
 
 #https://ibb.co/FqhFwD3
 
-st.markdown("<h5 style='text-align: center; color: black;'>(Please note that the results are not a guarantee and you buy stocks at your own risk. With this project I wanted to enable people to apply machine learning to their stocks. If an error occurs the stock is not in my stock list. Prices are in US dollars. I also added crypto currencies </h5>", unsafe_allow_html=True)
+st.markdown("<h5 style='text-align: center; color: black;'>(Please note that the results are not a guarantee and you buy stocks at your own risk. With this project I wanted to enable people to apply machine learning code to their stocks for free. If an error occurs the stock is not in my stock list. Prices are in US dollars. I also added crypto currencies </h5>", unsafe_allow_html=True)
 
 st.markdown("<h5 style='text-align: center; color: black;'>                 </h5>", unsafe_allow_html=True)
 
@@ -116,7 +116,7 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 ' MRRTY', ' AJMPF', ' TTM', ' CDE', ' IRTC', ' OMAB', ' NSTG', ' ALBKF', ' SPT', ' PLAN', ' DOCU', ' USNZY', ' TEAM', ' HL', ' VNOM', ' ACH', ' AGI', ' SKM', ' ACOPF', ' MYTE', ' WISH', ' TKAYY', ' OLK', ' RARE', ' TRUMY', ' UPWK', ' GGB', ' ATDRY', ' SSTK',
 ' TXG', ' SYIEY', ' PPRUY', ' KC', ' CRSP', ' TMVWY', ' WIX', ' VIR', ' NPSNY', ' SBRCY', ' NG', ' HOKCF', ' AUOTY', ' ORGO', ' XISHY', ' CDLX', ' SANA', ' PPERF', ' TIL', ' ADS', ' ARVL', ' YNDX', ' AEIS', ' RDY', ' CROX', ' EBS', ' SAGE', ' LGORF',  
 ' WHD', ' VCEL', ' UAA', ' OI', ' SYF', ' BKE', ' GDRX', ' JWN', ' MATX', ' CADE', ' JW-A', ' WRK', ' THRM', ' MPNGY', ' CLVLY', ' CMSQY', ' VTVT', ' MFNC', ' DMRC', ' MFCN', ' CBLI', ' MUDS', ' OBAS', ' AGC', ' BTX', ' ATXI', ' LHDX', ' GBOX',
-' UK', ' PLBY', ' GFED', ' CGA', ' AGCUU', ' AEE', ' MSB', ' CSSE', ' WCN', ' TIRX', ' OGI', ' NLSP', ' SNDL', ' CTRM', ' CNET', ' KRUS', ' SCR', ' RVPH', ' AMOM', ' CLIQ.DE', ' WEW.DE', ' WCH.DE', ' JUN3.DE', ' GLJ.DE')
+' UK', ' PLBY', ' GFED', ' CGA', ' AGCUU', ' AEE', ' MSB', ' CSSE', ' WCN', ' TIRX', ' OGI', ' NLSP', ' SNDL', ' CTRM', ' CNET', ' KRUS', ' SCR', ' RVPH', ' AMOM', ' CLIQ.DE', ' WEW.DE', ' WCH.DE', ' JUN3.DE', ' GLJ.DE', ' CL', ' FDX', ' WBA', ' ALXN')
 
 
 selected_stock = st.selectbox('Select the ticker symbol for the stock you want to predict', stocks)
@@ -208,16 +208,16 @@ st.markdown("<h2 style='text-align: center; color: white;'>  </h2>", unsafe_allo
 
 
 
+link = '[Activity of super investors and insiders](https://www.dataroma.com/m/home.php)'
+st.markdown(link, unsafe_allow_html=True)
+
+link = '[AMOM (Ai driven ETF)](https://qraftaietf.com/amom)'
+st.markdown(link, unsafe_allow_html=True)
+
 link = '[Buy me a coffee](https://www.buymeacoffee.com/MaxMnemo)'
 st.markdown(link, unsafe_allow_html=True)
 
 link = '[Github Repo](https://github.com/facebook/prophet)'
-st.markdown(link, unsafe_allow_html=True)
-
-link = '[Activity of super investors](https://www.dataroma.com/m/home.php)'
-st.markdown(link, unsafe_allow_html=True)
-
-link = '[Stocks that AMOM is currently holding (Ai driven portfolio)](https://qraftaietf.com/amom)'
 st.markdown(link, unsafe_allow_html=True)
 
 link = '[My website](http://mnemo.uk)'
@@ -241,13 +241,13 @@ st.markdown("<h3 style='text-align: center; color: black;'>Personal comment: </h
 
 st.markdown("<h4 style='text-align: center; color: black;'>                                                                                                                           </h4>", unsafe_allow_html=True)
 
-st.markdown("<h4 style='text-align: center; color: black;'>Use my app as a longterm tool to guide your decisions, not as a short final answer to make quick profits. There are so many factors influencing the stock market.      </h4>", unsafe_allow_html=True)
+st.markdown("<h4 style='text-align: center; color: black;'>Use my app as a longterm tool to guide your decisions, not as a short final answer to make quick profits. There are so many factors influencing the stock market but (!) my predictions of data entries that are overvalued or undervalued are also used in Ai driven ETFs that you have to pay a bigger price for. Imo opinion it's a great additional longterm tool for your analysis.        </h4>", unsafe_allow_html=True)
 
 st.markdown("<h4 style='text-align: center; color: black;'>Whether Elon Musk tweets to use signal and everyone agrees to buy a random stock named signal that has nothing to do with the messenger app or antagonist behaviour like people massively betting against hedgefunds on the Gamestop stock, these activities are hard to predict. </h4>", unsafe_allow_html=True)
 
 st.markdown("<h4 style='text-align: center; color: black;'>Some basic tips: Stay away from day trading. Hold your stocks. Don't panic sell when your stocks hit a low phase. Diversify, don't put everything into 1 or 2 stocks and inform yourself about the company you are invested in. What are the profits, market cap, does the company have competitors, is the overall branch of the company worth investing, does the company care for adding more value (investing in their IT infrastructure), what's the behaviour of insider trades (do people accumulate or sell stocks), is the country politically stable, what is the legal framework of the company, is the stock cyclic and volatile or does it grow stable and steadily, does the barfin smell something fishy, .......    </h4>", unsafe_allow_html=True)
 
-st.markdown("<h4 style='text-align: center; color: black;'>Also take overall excitement and recommendations of people about a stock with a grain of salt and see people with a 100% guarantee to buy something as a big red flag.</h4>", unsafe_allow_html=True)
+st.markdown("<h4 style='text-align: center; color: black;'>Also take overall excitement and recommendations of people about a stock with a grain of salt and see people with a 100% guarantee to buy something as a big red flag. Care for the value, not so much for the price...</h4>", unsafe_allow_html=True)
 
 st.markdown("<h3 style='text-align: center; color: black;'>Inflation: </h3>", unsafe_allow_html=True)
 
