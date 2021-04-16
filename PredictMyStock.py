@@ -57,6 +57,8 @@ st.markdown("<h5 style='text-align: center; color: black;'>                 </h5
 
 
 
+
+
 stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', ' ORCL', ' SNPS', ' VRSN', ' ACN', ' IBM', ' CRM', ' NOW', ' FIS', ' FISV', ' ADSK', ' INTU', ' COMMU', ' CSCO', ' AMAT', ' APH', ' HPQ', ' MSI', ' V', ' DIS',
 ' CMCSA', ' VZ', ' T', ' TMUS', ' NFLX', ' CHTR', ' NVDA', ' AVGO', ' QCOM', ' TXN', ' MU', ' AMD', ' XLNX', ' MCHP', ' ADI', ' JPM', ' BAC', ' BRK-B', ' AXP', ' COF', ' C', ' WFC', ' USB', ' PNC', ' MS', ' GS', ' SCHW', ' RF', ' ICE', ' SPGI',
 ' CME', ' MSCI', ' BLK', ' BK', ' STT', ' AON', ' MET', ' GL', ' L', ' BSX', ' BIO', ' EW', ' MDT', ' SYK', ' ABT', ' TMO', ' DHR', ' A', ' IQV', ' MTD', ' PFE', ' JNJ', ' MRK', ' ABBV', ' AMGN', ' GILD',
@@ -117,7 +119,8 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 ' TXG', ' SYIEY', ' PPRUY', ' KC', ' CRSP', ' TMVWY', ' WIX', ' VIR', ' NPSNY', ' SBRCY', ' NG', ' HOKCF', ' AUOTY', ' ORGO', ' XISHY', ' CDLX', ' SANA', ' PPERF', ' TIL', ' ADS', ' ARVL', ' YNDX', ' AEIS', ' RDY', ' CROX', ' EBS', ' SAGE', ' LGORF',  
 ' WHD', ' VCEL', ' UAA', ' OI', ' SYF', ' BKE', ' GDRX', ' JWN', ' MATX', ' CADE', ' JW-A', ' WRK', ' THRM', ' MPNGY', ' CLVLY', ' CMSQY', ' VTVT', ' MFNC', ' DMRC', ' MFCN', ' CBLI', ' MUDS', ' OBAS', ' AGC', ' BTX', ' ATXI', ' LHDX', ' GBOX',
 ' UK', ' PLBY', ' GFED', ' CGA', ' AGCUU', ' AEE', ' MSB', ' CSSE', ' WCN', ' TIRX', ' OGI', ' NLSP', ' SNDL', ' CTRM', ' CNET', ' KRUS', ' SCR', ' RVPH', ' AMOM', ' CLIQ.DE', ' WEW.DE', ' WCH.DE', ' JUN3.DE', ' GLJ.DE', ' CL', ' FDX', ' WBA', ' ALXN',
-' BYND', ' 0Q3.DE', ' IRBT', ' AXON', ' COPN.SW', ' ILM1.DE', ' CVAC')
+' BYND', ' 0Q3.DE', ' IRBT', ' AXON', ' COPN.SW', ' ILM1.DE', ' CVAC', ' PANA', ' DKNG', ' DDD', ' SPFR', ' PCAR', ' EXAS', ' PHR', ' PSTI', ' MASS', ' BLI', ' IRDM', ' AVAV', ' RTP')
+
 
 
 
