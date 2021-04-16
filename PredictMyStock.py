@@ -252,18 +252,6 @@ st.markdown("<h4 style='text-align: center; color: black;'>Whether Elon Musk twe
 
 st.markdown("<h4 style='text-align: center; color: black;'>Some basic tips: Stay away from day trading. Hold your stocks. Don't panic sell when your stocks hit a low phase. Diversify, don't put everything into 1 or 2 stocks and inform yourself about the company you are invested in. What are the profits, market cap, does the company have competitors, is the overall branch of the company worth investing, does the company care for adding more value (investing in their IT infrastructure), what's the behaviour of insider trades (do people accumulate or sell stocks), is the country politically stable, what is the legal framework of the company, is the stock cyclic and volatile or does it grow stable and steadily, does the barfin smell something fishy, .......    </h4>", unsafe_allow_html=True)
 
-st.markdown("<h4 style='text-align: center; color: black;'>Also take overall excitement and recommendations of people about a stock with a grain of salt and see people with a 100% guarantee to buy something as a big red flag. Care for the value, not so much for the price...</h4>", unsafe_allow_html=True)
+st.markdown("<h4 style='text-align: center; color: black;'>Also take overall excitement and recommendations of people about a stock with a grain of salt and see people with a 100% guarantee to buy something as a big red flag. Care for the value, not so much for the price. Think rational, use statistics as in my app, evaluate the numbers and hold.</h4>", unsafe_allow_html=True)
 
-st.markdown("<h3 style='text-align: center; color: black;'>Inflation: </h3>", unsafe_allow_html=True)
-
-
-
-st.markdown("<h4 style='text-align: center; color: black;'>My predictions are saying that there are so many overvalued stocks that we are heading towards inflation in the next years. Buyers are getting greedy right now and a market crash is not that unlikely. </h4>", unsafe_allow_html=True)
-
-
-st.markdown("<h4 style='text-align: center; color: black;'>There must be a counter value to these rising stocks. People invest in real estate while at the same time the unemployment rate rises and people can't pay their rent anymore. People are investing into businesses and expect the stock to rise while at the same time businesses keep fighting for their existence because of the pandemic...</h4>", unsafe_allow_html=True)
-
-
-
-st.markdown("<h4 style='text-align: center; color: black;'>But ending with a positive thought, I must say that I see correlations between my predictions and people's behaviour in the stock market. Buy the roumour, sell the news. Over valued stocks in my predictions are oftentimes in the news or they are mentioned in economic newspapers as a buy recommendation. Think rational, use statistics as in my app, evaluate the numbers and hold. </h4>", unsafe_allow_html=True)
 
