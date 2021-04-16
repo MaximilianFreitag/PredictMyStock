@@ -58,7 +58,6 @@ st.markdown("<h5 style='text-align: center; color: black;'>                 </h5
 
 
 
-
 stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', ' ORCL', ' SNPS', ' VRSN', ' ACN', ' IBM', ' CRM', ' NOW', ' FIS', ' FISV', ' ADSK', ' INTU', ' COMMU', ' CSCO', ' AMAT', ' APH', ' HPQ', ' MSI', ' V', ' DIS',
 ' CMCSA', ' VZ', ' T', ' TMUS', ' NFLX', ' CHTR', ' NVDA', ' AVGO', ' QCOM', ' TXN', ' MU', ' AMD', ' XLNX', ' MCHP', ' ADI', ' JPM', ' BAC', ' BRK-B', ' AXP', ' COF', ' C', ' WFC', ' USB', ' PNC', ' MS', ' GS', ' SCHW', ' RF', ' ICE', ' SPGI',
 ' CME', ' MSCI', ' BLK', ' BK', ' STT', ' AON', ' MET', ' GL', ' L', ' BSX', ' BIO', ' EW', ' MDT', ' SYK', ' ABT', ' TMO', ' DHR', ' A', ' IQV', ' MTD', ' PFE', ' JNJ', ' MRK', ' ABBV', ' AMGN', ' GILD',
@@ -102,8 +101,8 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 ' STLFF', ' GOEV', ' QTRX', ' LOGI', ' ZS', ' RCKT', ' UCTT', ' DSP', ' RLAY', ' GSAT', ' SAIA', ' BEAM', ' GCTAY', ' APHA', ' WKEY', ' XL', ' HYLN', ' PTEN', ' DHT', ' FGEN', ' WPG', ' FBASF', ' RMO', ' LTRPB', ' MKTY', ' IKNA', ' ACHL',
 ' GASS', ' MERC', ' CGEM', ' AMR', ' JT', ' VCTR', ' CTG', ' VIVO', ' EXPR', ' HOLX', ' BWA', ' DHI', ' SBSW', ' EBAY', ' LEN', ' CE', ' TLK', ' SNP', ' TEF', ' EBR-B', ' EBR', ' PPL', ' SHG', ' PKX', ' ORAN', ' VIV', ' REGN', ' FE',
 ' FMS', ' FRE.DE', ' 11C.F', ' PSHD.L', ' GXI.DE', ' HFG.DE', ' PLUG.DE', ' COIN', ' SEED', ' NOEC', ' COUR', ' AVD', ' IPI', ' EEM', ' MFS=F', ' MME=F', ' EWZ', ' EFA', ' DOCN', ' OLO', ' ACVA', ' ACHL', ' IMCR', ' TUYA', ' DSGN', ' IO', ' SEEL', 
-' BBQ', ' FIXX', ' CXW', ' GALT', ' MAXN', ' GRAY', ' LHX', ' ODT', ' LW', ' LHDX', ' ISIG', ' BSIG', ' NFH', ' JRO', ' OUST', ' TPCO', ' ALRM', ' CAG', ' BNSO', ' JDCMF', ' YUMC', ' EDU', ' TAL', ' WEED.TO', ' TAB', ' TGOD.TO', ' TGODF', ' YM=F', 
-' ES=F', ' NQ=F', ' RTY=F', ' ^FTSE', ' ^CMC200', ' PDD', ' BIDU', ' VIPS', ' WB', ' YY', ' DADA', ' ZH', ' DOYU', ' DAO', ' SOGO', ' BZUN', ' CANG', ' SOHU', ' JFIN', ' LIZI', ' BLCT', ' MTD', ' ILMN', ' USDRUB=X', ' USDJPY=X', ' USDCAD=X',
+' BBQ', ' FIXX', ' GALT', ' MAXN', ' GRAY', ' LHX', ' ODT', ' LW', ' LHDX', ' ISIG', ' BSIG', ' NFH', ' JRO', ' OUST', ' TPCO', ' ALRM', ' CAG', ' BNSO', ' JDCMF', ' YUMC', ' EDU', ' TAL', ' WEED.TO', ' TAB', ' TGOD.TO', ' TGODF', ' YM=F', 
+' ES=F', ' NQ=F', ' RTY=F', ' ^FTSE', ' ^CMC200', ' BIDU', ' VIPS', ' WB', ' YY', ' DADA', ' ZH', ' DOYU', ' DAO', ' SOGO', ' BZUN', ' CANG', ' SOHU', ' JFIN', ' LIZI', ' BLCT', ' MTD', ' ILMN', ' USDRUB=X', ' USDJPY=X', ' USDCAD=X',
 ' JWEL', ' OCG', ' JD', ' KWEB', ' CQQQ', ' KBA', ' MCHI', ' CHIQ', ' 03690', ' QTEC', ' IXN', ' IGV', ' FTEC', ' IYW', ' FDN', ' VGT', ' XLK', ' VOO', ' ESGU', ' O', ' IPO', ' LTC', ' STAG', ' DX', ' MAIN', ' PSEC', ' GLAD', ' GOOD',
 ' DSL', ' FOF', ' GLD', ' TEAF', ' VCSH', ' YELP', ' TTD', ' ZG', ' MMC', ' RH', ' ADJ.DE', ' PAT.DE', ' TLG.DE', ' TEG.DE', ' DWNI.DE', ' AOX.DE', ' HHFA.DE', ' HABA.DE', ' INS.F', ' IVZ', ' BRPHF', ' FUTU', ' OXY', ' O1E.SG', ' POQ.F', ' B7BA.SG',
 ' DBK.DE', ' SIGL', ' SAX.DE', ' H50E.L', ' H5E.DE', ' CVCO', ' D2BA.HM', ' XLE', ' SDGR', ' UBER', ' LILA', ' LILAK', ' BXP', ' URG', ' DNN', ' UUUU', ' CCJ', ' NXE', ' UEC', ' KWS.DE', ' SKB.DE', ' CWC.DE', ' STLD', ' NUE', ' TX', ' SQ',
@@ -119,7 +118,7 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 ' TXG', ' SYIEY', ' PPRUY', ' KC', ' CRSP', ' TMVWY', ' WIX', ' VIR', ' NPSNY', ' SBRCY', ' NG', ' HOKCF', ' AUOTY', ' ORGO', ' XISHY', ' CDLX', ' SANA', ' PPERF', ' TIL', ' ADS', ' ARVL', ' YNDX', ' AEIS', ' RDY', ' CROX', ' EBS', ' SAGE', ' LGORF',  
 ' WHD', ' VCEL', ' UAA', ' OI', ' SYF', ' BKE', ' GDRX', ' JWN', ' MATX', ' CADE', ' JW-A', ' WRK', ' THRM', ' MPNGY', ' CLVLY', ' CMSQY', ' VTVT', ' MFNC', ' DMRC', ' MFCN', ' CBLI', ' MUDS', ' OBAS', ' AGC', ' BTX', ' ATXI', ' LHDX', ' GBOX',
 ' UK', ' PLBY', ' GFED', ' CGA', ' AGCUU', ' AEE', ' MSB', ' CSSE', ' WCN', ' TIRX', ' OGI', ' NLSP', ' SNDL', ' CTRM', ' CNET', ' KRUS', ' SCR', ' RVPH', ' AMOM', ' CLIQ.DE', ' WEW.DE', ' WCH.DE', ' JUN3.DE', ' GLJ.DE', ' CL', ' FDX', ' WBA', ' ALXN',
-' BYND', ' 0Q3.DE', ' IRBT', ' AXON', ' COPN.SW', ' ILM1.DE', ' CVAC', ' PANA', ' DKNG', ' DDD', ' SPFR', ' PCAR', ' EXAS', ' PHR', ' PSTI', ' MASS', ' BLI', ' IRDM', ' AVAV', ' RTP')
+' BYND', ' 0Q3.DE', ' IRBT', ' AXON', ' COPN.SW', ' ILM1.DE', ' CVAC', ' PANA', ' DKNG', ' DDD', ' SPFR', ' PCAR', ' EXAS', ' PHR', ' PSTI', ' MASS', ' BLI', ' IRDM', ' AVAV', ' RTP', ' ZEN', ' IDXX', ' TSP', ' FATE', ' CXW', ' LFC', ' ALGN')
 
 
 
@@ -216,9 +215,6 @@ st.markdown("<h2 style='text-align: center; color: white;'>  </h2>", unsafe_allo
 link = '[Activity of super investors and insiders](https://www.dataroma.com/m/home.php)'
 st.markdown(link, unsafe_allow_html=True)
 
-link = '[AMOM (Ai driven ETF)](https://qraftaietf.com/amom)'
-st.markdown(link, unsafe_allow_html=True)
-
 link = '[Buy me a coffee](https://www.buymeacoffee.com/MaxMnemo)'
 st.markdown(link, unsafe_allow_html=True)
 
@@ -230,6 +226,11 @@ st.markdown(link, unsafe_allow_html=True)
 
 link = '[My Instagram self-study page](https://www.instagram.com/max_mnemo/)'
 st.markdown(link, unsafe_allow_html=True)
+
+link = '[AMOM (Ai driven ETF)](https://qraftaietf.com/amom)'
+st.markdown(link, unsafe_allow_html=True)
+
+
 
 
 st.markdown("<h2 style='text-align: center; color: white;'>   </h2>", unsafe_allow_html=True)
@@ -250,7 +251,7 @@ st.markdown("<h4 style='text-align: center; color: black;'>Use my app as a longt
 
 st.markdown("<h4 style='text-align: center; color: black;'>Whether Elon Musk tweets to use signal and everyone agrees to buy a random stock named signal that has nothing to do with the messenger app or antagonist behaviour like people massively betting against hedgefunds on the Gamestop stock, these activities are hard to predict. </h4>", unsafe_allow_html=True)
 
-st.markdown("<h4 style='text-align: center; color: black;'>Some basic tips: Stay away from day trading. Hold your stocks. Don't panic sell when your stocks hit a low phase. Diversify, don't put everything into 1 or 2 stocks and inform yourself about the company you are invested in. What are the profits, market cap, does the company have competitors, is the overall branch of the company worth investing, does the company care for adding more value (investing in their IT infrastructure), what's the behaviour of insider trades (do people accumulate or sell stocks), is the country politically stable, what is the legal framework of the company, is the stock cyclic and volatile or does it grow stable and steadily, does the barfin smell something fishy, .......    </h4>", unsafe_allow_html=True)
+st.markdown("<h4 style='text-align: center; color: black;'>Some basic tips: Stay away from day trading. Hold your stocks. Don't panic sell when your stocks hit a low phase. Diversify, don't put everything into 1 or 2 stocks and inform yourself, do the research on the company you are invested in. What are the profits, market cap, does the company have competitors, is the overall branch of the company worth investing, does the company care for adding more value (investing in their IT infrastructure), what's the behaviour of insider trades (do people accumulate or sell stocks), is the country politically stable, what is the legal framework of the company, is the stock cyclic and volatile or does it grow stable and steadily, does the barfin smell something fishy, look at their earnings (are they underwhelming or growing?), ...    </h4>", unsafe_allow_html=True)
 
 st.markdown("<h4 style='text-align: center; color: black;'>Also take overall excitement and recommendations of people about a stock with a grain of salt and see people with a 100% guarantee to buy something as a big red flag. Care for the value, not so much for the price. Think rational, use statistics as in my app, evaluate the numbers and hold.</h4>", unsafe_allow_html=True)
 
