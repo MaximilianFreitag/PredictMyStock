@@ -39,7 +39,7 @@ def _max_width_():
     )
 
 
-START = "2000-01-01"
+START = "2005-01-01"
 TODAY = date.today().strftime("%Y-%m-%d")
 
 st.markdown("<h1 style='text-align: center; color: black;'>Predict My Stocks</h1>", unsafe_allow_html=True)
