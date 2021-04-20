@@ -226,10 +226,10 @@ st.markdown("<h2 style='text-align: center; color: white;'>  </h2>", unsafe_allo
 
 #Predict Volume
 df_train_two = data[['Date','Volume']]
-df_train_two = df_train_two.rename(columns={"Date": "ds2", "Close": "y2"})
+df_train_two = df_train_two.rename(columns={"Date": "ds", "Close": "y"})
 
 m = Prophet()
-m.fit(df_train_two)
+m.fit(df_train)
 future_two = m.make_future_dataframe(periods=period)
 forecast_two = m.predict(future)
 
