@@ -196,6 +196,7 @@ st.markdown("<h2 style='text-align: center; color: black;'>Forecast plot </h2>",
 st.markdown("<h3 style='text-align: center; color: black;'>Use the slider to select the range of years </h3>", unsafe_allow_html=True)
 st.markdown("<h4 style='text-align: center; color: black;'>Data entries above the blue line = overvalued </h4>", unsafe_allow_html=True)
 st.markdown("<h4 style='text-align: center; color: black;'>Data entries underneath the blue line = undervalued </h4>", unsafe_allow_html=True)
+
 fig1 = plot_plotly(m, forecast)
 st.plotly_chart(fig1)
 
@@ -229,12 +230,16 @@ df_train_two = data[['Date','Volume']]
 df_train_two = df_train_two.rename(columns={"Date": "ds", "Close": "y"})
 
 m = Prophet()
-m.fit(df_train)
+m.fit(df_train_two)
 future_two = m.make_future_dataframe(periods=period)
 forecast_two = m.predict(future)
 
-fig2 = plot_plotly(m, forecast_two)
+fig2 = m.plot_components(forecast_two)
+
+#fig2 = plot_plotly(m, forecast_two)
 st.plotly_chart(fig2)
+
+
 
 
 link = '[Activity of super investors and insiders](https://www.dataroma.com/m/home.php)'
