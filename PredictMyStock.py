@@ -225,19 +225,6 @@ st.markdown("<h2 style='text-align: center; color: white;'>   </h2>", unsafe_all
 st.markdown("<h2 style='text-align: center; color: white;'>  </h2>", unsafe_allow_html=True)
 
 
-#Predict Volume
-df_train_two = data[['Date','Volume']]
-df_train_two = df_train_two.rename(columns={"Date": "ds", "Close": "y"})
-
-m = Prophet()
-m.fit(df_train_two)
-future_two = m.make_future_dataframe(periods=period)
-forecast_two = m.predict(future)
-
-fig2 = m.plot_components(forecast_two)
-
-#fig2 = plot_plotly(m, forecast_two)
-st.plotly_chart(fig2)
 
 
 
