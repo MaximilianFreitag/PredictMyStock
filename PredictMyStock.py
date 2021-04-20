@@ -122,7 +122,7 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 ' SNY', ' CI', ' HPE', ' TEL', ' INCY', ' WMB', ' RHHBY', ' SLB', ' DISH', ' FOXA', ' BMRN', ' FOX', ' LNC', ' AEG', ' HAL', ' DCI', ' GPS', ' ON', ' ET', ' LUV', ' SONY', ' ELAN', ' PRLB', ' ZBH', ' NVEC', ' PXD', ' ERES', ' BOKF', ' GLW', ' ROK', ' JAMF', 
 ' LNT', ' DGII', ' WK', ' OMF', ' SPR', ' LSXMA', ' LFUS', ' HRL', ' FUL', ' COR', ' DCI', ' PFG', ' CHRW', ' VLKAF', ' UNM', ' TOL', ' MARUF', ' GT', ' BIIB', ' SBNY', ' ETN', ' ULTA', ' HI', ' MAR', ' ABCL', ' FTV', ' AIZ', ' NUAN', ' KRTX', ' ARNA', ' KLDIW',
 ' XEC', ' ALBO', ' CEIX', ' ZTS', ' TREE', ' AHS', ' EXPO', ' SLP', ' ACWI', ' CLB', ' RMD', ' ALLE', ' PENN', ' AEGN', ' REZI', ' ZBH', ' APA', ' HNGR', ' FAF', ' KKR', ' TISI', ' IT', ' BL', ' DT', ' HEI', ' SEER', ' ACA', ' NOMD', ' MMSI', ' GPC', ' CC', 
-' SNA', ' MOS', ' NLSN', ' LAZ', ' LH', ' MSGE', ' WU', ' AQUA', ' CHNG', ' ZUO', ' PCPH', ' TECK', ' DXCM', ' ECV.F')
+' SNA', ' MOS', ' NLSN', ' LAZ', ' LH', ' MSGE', ' WU', ' AQUA', ' CHNG', ' ZUO', ' PCPH', ' TECK', ' DXCM', ' ECV.F', ' OCGN', ' MWW', ' ITOS', ' BIIB', ' TDOC')
 
 
 
@@ -161,7 +161,7 @@ plot_raw_data()
 def plot_raw_data_two():
     fig = go.Figure()
     fig.add_trace(go.Scatter(x=data['Date'], y=data['Volume'], name="Volume of stock"))
-    fig.layout.update(title_text='Time Series Data of the volume  (without forcast)', xaxis_rangeslider_visible=True)
+    fig.layout.update(title_text='Time Series Data of the volume (without forcast)', xaxis_rangeslider_visible=True)
     st.plotly_chart(fig)
 
 plot_raw_data_two()
@@ -175,6 +175,9 @@ m = Prophet()
 m.fit(df_train)
 future = m.make_future_dataframe(periods=period)
 forecast = m.predict(future)
+
+
+
 
 #Show cat GIF
 #if m.predict(future) == True:
@@ -220,6 +223,18 @@ st.markdown("<h4 style='text-align: center; color: black;'>Chart goes up = Stock
 st.markdown("<h2 style='text-align: center; color: white;'>   </h2>", unsafe_allow_html=True)
 st.markdown("<h2 style='text-align: center; color: white;'>  </h2>", unsafe_allow_html=True)
 
+
+#Predict Volume
+df_train_two = data[['Date','Volume']]
+df_train_two = df_train_two.rename(columns={"Date": "ds2", "Close": "y2"})
+
+m = Prophet()
+m.fit(df_train_two)
+future_two = m.make_future_dataframe(periods=period)
+forecast_two = m.predict(future)
+
+fig2 = plot_plotly(m, forecast_two)
+st.plotly_chart(fig2)
 
 
 link = '[Activity of super investors and insiders](https://www.dataroma.com/m/home.php)'
