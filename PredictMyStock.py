@@ -56,7 +56,6 @@ st.markdown("<h5 style='text-align: center; color: black;'>                 </h5
 st.markdown("<h5 style='text-align: center; color: black;'>                 </h5>", unsafe_allow_html=True)
 
 
-
 stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', ' ORCL', ' SNPS', ' VRSN', ' ACN', ' IBM', ' CRM', ' NOW', ' FIS', ' FISV', ' ADSK', ' INTU', ' COMMU', ' CSCO', ' AMAT', ' APH', ' HPQ', ' MSI', ' V', ' DIS',
 ' CMCSA', ' VZ', ' T', ' TMUS', ' NFLX', ' CHTR', ' NVDA', ' AVGO', ' QCOM', ' TXN', ' MU', ' AMD', ' XLNX', ' MCHP', ' ADI', ' JPM', ' BAC', ' BRK-B', ' AXP', ' COF', ' C', ' WFC', ' USB', ' PNC', ' MS', ' GS', ' SCHW', ' RF', ' ICE', ' SPGI',
 ' CME', ' MSCI', ' BLK', ' BK', ' STT', ' AON', ' MET', ' GL', ' L', ' BSX', ' BIO', ' EW', ' MDT', ' SYK', ' ABT', ' TMO', ' DHR', ' A', ' IQV', ' MTD', ' PFE', ' JNJ', ' MRK', ' ABBV', ' AMGN', ' GILD',
@@ -105,7 +104,7 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 ' JWEL', ' OCG', ' JD', ' KWEB', ' CQQQ', ' KBA', ' MCHI', ' CHIQ', ' 03690', ' QTEC', ' IXN', ' IGV', ' FTEC', ' IYW', ' FDN', ' VGT', ' XLK', ' VOO', ' ESGU', ' O', ' IPO', ' LTC', ' STAG', ' DX', ' MAIN', ' PSEC', ' GLAD', ' GOOD',
 ' DSL', ' FOF', ' GLD', ' TEAF', ' VCSH', ' YELP', ' TTD', ' ZG', ' MMC', ' RH', ' ADJ.DE', ' PAT.DE', ' TLG.DE', ' TEG.DE', ' DWNI.DE', ' AOX.DE', ' HHFA.DE', ' HABA.DE', ' INS.F', ' IVZ', ' BRPHF', ' FUTU', ' OXY', ' O1E.SG', ' POQ.F', ' B7BA.SG',
 ' DBK.DE', ' SIGL', ' SAX.DE', ' H50E.L', ' H5E.DE', ' CVCO', ' D2BA.HM', ' XLE', ' SDGR', ' UBER', ' LILA', ' LILAK', ' BXP', ' URG', ' DNN', ' UUUU', ' CCJ', ' NXE', ' UEC', ' KWS.DE', ' SKB.DE', ' CWC.DE', ' STLD', ' NUE', ' TX', ' SQ',
-' GPN', ' U', ' CRWD', ' NET', ' CSGP', ' LBRDK', ' VUG', ' CCL', ' SAIC', ' HHC', ' LOV', ' SRG', ' ESTC', ' PFSI', ' GTYH', ' MAXR', ' ADV', ' AHCO', ' SMHI', ' GOCO', ' APO', ' KEYS', ' OSPN', ' ANF', ' VICI', ' KDP', ' CMI', ' NLS',
+' GPN', ' U', ' CRWD', ' NET', ' CSGP', ' LBRDK', ' VUG', ' SAIC', ' HHC', ' LOV', ' SRG', ' ESTC', ' PFSI', ' GTYH', ' MAXR', ' ADV', ' AHCO', ' SMHI', ' GOCO', ' APO', ' KEYS', ' OSPN', ' ANF', ' VICI', ' KDP', ' CMI', ' NLS',
 ' SONO', ' ED', ' SPG', ' ATEX', ' FAST', ' IRWD', ' OTIS', ' VTA', ' NSC', ' ATGE', ' FUBO', ' CET', ' CERN', ' HBB', ' W', ' DXC', ' FPH', ' SRGA', ' GTX', ' FCNCA', ' ORI', ' EDP', ' EPD', ' TALO', ' YALA', ' LRCX', ' DEN', ' ALLY', ' LRCX',
 ' JEF', ' SIBN', ' ATKR', ' TCS', ' MBUU', ' VWS', ' ISRG', ' SJM', ' NVT', ' PGR', ' NTRS', ' OMC', ' AN', ' ATCO', ' GRBK', ' NGA', ' BNGO', ' BFT', ' SPWR', ' MVIS', ' CAPA', ' CLII', ' THCX', ' Z', ' SPRT', ' LAZR', ' UPST', ' RH', ' INTC', ' INX',
 ' PSAC', ' ENPH', ' LI', ' FSLY', ' SSPK', ' AABB', ' LMND', ' MP', ' SPY', ' DYAI', ' RCKY', ' SLQD', ' PLAY', ' GGTTF', ' KDSS', ' RDFN', ' CCL', ' LTUM', ' TMBR', ' ARCT', ' PLNHF', ' EYES', ' FLT', ' IP', ' FTNT', ' OM', ' SHV', ' XLV', ' THO', ' AGRX',
@@ -122,7 +121,8 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 ' SNY', ' CI', ' HPE', ' TEL', ' INCY', ' WMB', ' RHHBY', ' SLB', ' DISH', ' FOXA', ' BMRN', ' FOX', ' LNC', ' AEG', ' HAL', ' DCI', ' GPS', ' ON', ' ET', ' LUV', ' SONY', ' ELAN', ' PRLB', ' ZBH', ' NVEC', ' PXD', ' ERES', ' BOKF', ' GLW', ' ROK', ' JAMF', 
 ' LNT', ' DGII', ' WK', ' OMF', ' SPR', ' LSXMA', ' LFUS', ' HRL', ' FUL', ' COR', ' DCI', ' PFG', ' CHRW', ' VLKAF', ' UNM', ' TOL', ' MARUF', ' GT', ' BIIB', ' SBNY', ' ETN', ' ULTA', ' HI', ' MAR', ' ABCL', ' FTV', ' AIZ', ' NUAN', ' KRTX', ' ARNA', ' KLDIW',
 ' XEC', ' ALBO', ' CEIX', ' ZTS', ' TREE', ' AHS', ' EXPO', ' SLP', ' ACWI', ' CLB', ' RMD', ' ALLE', ' PENN', ' AEGN', ' REZI', ' ZBH', ' APA', ' HNGR', ' FAF', ' KKR', ' TISI', ' IT', ' BL', ' DT', ' HEI', ' SEER', ' ACA', ' NOMD', ' MMSI', ' GPC', ' CC', 
-' SNA', ' MOS', ' NLSN', ' LAZ', ' LH', ' MSGE', ' WU', ' AQUA', ' CHNG', ' ZUO', ' PCPH', ' TECK', ' DXCM', ' ECV.F', ' OCGN', ' MWW', ' ITOS', ' BIIB', ' TDOC')
+' SNA', ' MOS', ' NLSN', ' LAZ', ' LH', ' MSGE', ' WU', ' AQUA', ' CHNG', ' ZUO', ' PCPH', ' TECK', ' DXCM', ' ECV.F', ' OCGN', ' MWW', ' ITOS', ' TDOC', ' PATH', ' PHX', ' RPHM', ' EPSM', ' WORK', ' BWEN', ' BLFS', ' STON', ' CUK',
+' AMRS', ' PAYC', ' PCRX', ' GH', ' ZI', ' OSH', ' MEDP', ' NCNO', ' IART', ' MTEM', ' PPG', ' WEX', ' TTCF', ' CUK', ' GMS', ' SPAC', ' QUBT')
 
 
 
