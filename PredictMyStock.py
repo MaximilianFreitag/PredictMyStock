@@ -122,7 +122,7 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 ' LNT', ' DGII', ' WK', ' OMF', ' SPR', ' LSXMA', ' LFUS', ' HRL', ' FUL', ' COR', ' DCI', ' PFG', ' CHRW', ' VLKAF', ' UNM', ' TOL', ' MARUF', ' GT', ' BIIB', ' SBNY', ' ETN', ' ULTA', ' HI', ' MAR', ' ABCL', ' FTV', ' AIZ', ' NUAN', ' KRTX', ' ARNA', ' KLDIW',
 ' XEC', ' ALBO', ' CEIX', ' ZTS', ' TREE', ' AHS', ' EXPO', ' SLP', ' ACWI', ' CLB', ' RMD', ' ALLE', ' PENN', ' AEGN', ' REZI', ' ZBH', ' APA', ' HNGR', ' FAF', ' KKR', ' TISI', ' IT', ' BL', ' DT', ' HEI', ' SEER', ' ACA', ' NOMD', ' MMSI', ' GPC', ' CC', 
 ' SNA', ' MOS', ' NLSN', ' LAZ', ' LH', ' MSGE', ' WU', ' AQUA', ' CHNG', ' ZUO', ' PCPH', ' TECK', ' DXCM', ' ECV.F', ' OCGN', ' MWW', ' ITOS', ' TDOC', ' PATH', ' PHX', ' RPHM', ' EPSM', ' WORK', ' BWEN', ' BLFS', ' STON', ' CUK',
-' AMRS', ' PAYC', ' PCRX', ' GH', ' ZI', ' OSH', ' MEDP', ' NCNO', ' IART', ' MTEM', ' PPG', ' WEX', ' TTCF', ' CUK', ' GMS', ' SPAC', ' QUBT')
+' AMRS', ' PAYC', ' PCRX', ' GH', ' ZI', ' OSH', ' MEDP', ' NCNO', ' IART', ' MTEM', ' PPG', ' WEX', ' TTCF', ' CUK', ' GMS', ' SPAC', ' QUBT', ' 7CD.F', ' 3CP.F', ' 11C.F', ' VAR1.DE', ' NNND.F', ' D7G.F', ' AHLA.DE', ' XSDG.F', ' HYMTF', ' 005930.KS', ' SSUN.F')
 
 
 
