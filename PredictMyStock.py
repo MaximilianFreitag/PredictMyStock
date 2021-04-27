@@ -56,6 +56,8 @@ st.markdown("<h5 style='text-align: center; color: black;'>                 </h5
 st.markdown("<h5 style='text-align: center; color: black;'>                 </h5>", unsafe_allow_html=True)
 
 
+
+
 stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', ' ORCL', ' SNPS', ' VRSN', ' ACN', ' IBM', ' CRM', ' NOW', ' FIS', ' FISV', ' ADSK', ' INTU', ' COMMU', ' CSCO', ' AMAT', ' APH', ' HPQ', ' MSI', ' V', ' DIS',
 ' CMCSA', ' VZ', ' T', ' TMUS', ' NFLX', ' CHTR', ' NVDA', ' AVGO', ' QCOM', ' TXN', ' MU', ' AMD', ' XLNX', ' MCHP', ' ADI', ' JPM', ' BAC', ' BRK-B', ' AXP', ' COF', ' C', ' WFC', ' USB', ' PNC', ' MS', ' GS', ' SCHW', ' RF', ' ICE', ' SPGI',
 ' CME', ' MSCI', ' BLK', ' BK', ' STT', ' AON', ' MET', ' GL', ' L', ' BSX', ' BIO', ' EW', ' MDT', ' SYK', ' ABT', ' TMO', ' DHR', ' A', ' IQV', ' MTD', ' PFE', ' JNJ', ' MRK', ' ABBV', ' AMGN', ' GILD',
@@ -123,7 +125,8 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 ' XEC', ' ALBO', ' CEIX', ' ZTS', ' TREE', ' AHS', ' EXPO', ' SLP', ' ACWI', ' CLB', ' RMD', ' ALLE', ' PENN', ' AEGN', ' REZI', ' ZBH', ' APA', ' HNGR', ' FAF', ' KKR', ' TISI', ' IT', ' BL', ' DT', ' HEI', ' SEER', ' ACA', ' NOMD', ' MMSI', ' GPC', ' CC', 
 ' SNA', ' MOS', ' NLSN', ' LAZ', ' LH', ' MSGE', ' WU', ' AQUA', ' CHNG', ' ZUO', ' PCPH', ' TECK', ' DXCM', ' ECV.F', ' OCGN', ' MWW', ' ITOS', ' TDOC', ' PATH', ' PHX', ' RPHM', ' EPSM', ' WORK', ' BWEN', ' BLFS', ' STON', ' CUK',
 ' AMRS', ' PAYC', ' PCRX', ' GH', ' ZI', ' OSH', ' MEDP', ' NCNO', ' IART', ' MTEM', ' PPG', ' WEX', ' TTCF', ' CUK', ' GMS', ' SPAC', ' QUBT', ' 7CD.F', ' 3CP.F', ' 11C.F', ' VAR1.DE', ' NNND.F', ' D7G.F', ' AHLA.DE', ' XSDG.F', ' HYMTF', ' 005930.KS', ' SSUN.F',
-' MTX.DE', ' NDA.DE', ' AIR.DE', ' S92.DE', ' MMQ', ' 5CV.DE', ' VBK.DE', ' EVD.DE', ' GFT.DE', ' DEQ.DE', ' MEI', ' EMAN', ' ZION', ' ORCC', ' SNMP', ' CRM', ' CLI', ' NPCE', ' VSEC', ' SFBS', ' HMN', ' MTZ', ' NJR', ' AX')
+' MTX.DE', ' NDA.DE', ' AIR.DE', ' S92.DE', ' MMQ', ' 5CV.DE', ' VBK.DE', ' EVD.DE', ' GFT.DE', ' DEQ.DE', ' MEI', ' EMAN', ' ZION', ' ORCC', ' SNMP', ' CRM', ' CLI', ' NPCE', ' VSEC', ' SFBS', ' HMN', ' MTZ', ' NJR', ' AX', ' PBLA', ' AE', ' AFT', ' AGM',
+' ALG', ' BBSI', ' EBIX', ' IGI', ' IGIC', ' SMP', ' VRS', ' VKI', ' TACT', ' ARDC', ' BLX', ' GTN', ' HNNA', ' FRO', ' AMPY', ' NSRGY')
 
 
 
@@ -233,7 +236,7 @@ st.markdown("<h2 style='text-align: center; color: white;'>  </h2>", unsafe_allo
 link = '[Activity of super investors and insiders](https://www.dataroma.com/m/home.php)'
 st.markdown(link, unsafe_allow_html=True)
 
-link = '[Buy me a coffee](https://www.buymeacoffee.com/MaxMnemo)'
+link = '[Finviz, great for filtering stocks](https://www.dataroma.com/m/home.php)'
 st.markdown(link, unsafe_allow_html=True)
 
 link = '[Github Repo](https://github.com/facebook/prophet)'
@@ -242,4 +245,5 @@ st.markdown(link, unsafe_allow_html=True)
 link = '[My Instagram self-study page](https://www.instagram.com/max_mnemo/)'
 st.markdown(link, unsafe_allow_html=True)
 
-
+link = '[Buy me a coffee](https://www.buymeacoffee.com/MaxMnemo)'
+st.markdown(link, unsafe_allow_html=True)
