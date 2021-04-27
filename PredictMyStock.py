@@ -57,7 +57,6 @@ st.markdown("<h5 style='text-align: center; color: black;'>                 </h5
 
 
 
-
 stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', ' ORCL', ' SNPS', ' VRSN', ' ACN', ' IBM', ' CRM', ' NOW', ' FIS', ' FISV', ' ADSK', ' INTU', ' COMMU', ' CSCO', ' AMAT', ' APH', ' HPQ', ' MSI', ' V', ' DIS',
 ' CMCSA', ' VZ', ' T', ' TMUS', ' NFLX', ' CHTR', ' NVDA', ' AVGO', ' QCOM', ' TXN', ' MU', ' AMD', ' XLNX', ' MCHP', ' ADI', ' JPM', ' BAC', ' BRK-B', ' AXP', ' COF', ' C', ' WFC', ' USB', ' PNC', ' MS', ' GS', ' SCHW', ' RF', ' ICE', ' SPGI',
 ' CME', ' MSCI', ' BLK', ' BK', ' STT', ' AON', ' MET', ' GL', ' L', ' BSX', ' BIO', ' EW', ' MDT', ' SYK', ' ABT', ' TMO', ' DHR', ' A', ' IQV', ' MTD', ' PFE', ' JNJ', ' MRK', ' ABBV', ' AMGN', ' GILD',
@@ -97,10 +96,10 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 ' GEC.F', ' AAPL.F', ' ZAL.DE', ' G24.DE', ' WDI.DE', ' FNTN.DE', ' RKET.DE', ' ABEC.DE', ' MSF.F', ' AMZ.F', ' FB2A.DE', ' NNND.DE', ' AHLA.F', ' ORC.F', ' QCI.F', ' CSA.F', ' IOY.SG', ' SFT.F', ' ADB.F', ' FOO.DE', ' YHO.F', ' 2HP.DE', ' EBA.DE', 
 ' NSU.DE', ' UAL1.F', ' TOM.DE', ' HDM.F', ' GM.SW', ' FMC1.DE', ' NISA.F', ' TL0.DE', ' HYU.F', ' RNL.F', ' VOL1.F', ' PEU.F', ' SUK.F', ' FMC.DE', ' HOT.DE', ' HEI.DE', ' CAT1.F', ' IXD1.DE', ' UTC1.DE', ' LWE.F', ' ILT.F', ' KMY.DE', ' SQU.F', 
 ' ACOF.F', ' DCO.DE', ' KD8.HM', ' MEO.DE', ' UTDI.DE', ' PAH3.DE', ' INH.DE', ' BRH.F', ' ALD.F', ' TN8.F', ' SOT.F', ' ENL.F', ' H4W.F', ' WF3.F', ' FIE.DE', ' TTK.DE', ' HBH.DE', ' WMT.F', ' HDI.DE', ' MDO.F', ' PCE1.DE', ' CTO.F', ' DYH.F', 
-' CVC1.DE', ' HMSB.DE', ' CAR.F', ' TCO.F', ' SRB.DE', ' SY1.DE', ' FME.DE', ' RHKG.DE', ' AFX.DE', ' MOR.DE', ' BNTX', ' ^STOXX50E', ' BEKE', ' DDOG', ' AAGH', ' ROKU', ' EH', ' SFIX', ' VLDR', ' TOSYY', ' INVU', ' SNCY', ' AFTPY', ' IQ', ' RVLV', 
+' CVC1.DE', ' HMSB.DE', ' CAR.F', ' TCO.F', ' SRB.DE', ' SY1.DE', ' FME.DE', ' RHKG.DE', ' AFX.DE', ' MOR.DE', ' BNTX', ' ^STOXX50E', ' DDOG', ' AAGH', ' ROKU', ' EH', ' SFIX', ' VLDR', ' TOSYY', ' INVU', ' SNCY', ' AFTPY', ' IQ', ' RVLV', 
 ' STLFF', ' GOEV', ' QTRX', ' LOGI', ' ZS', ' RCKT', ' UCTT', ' DSP', ' RLAY', ' GSAT', ' SAIA', ' BEAM', ' GCTAY', ' APHA', ' WKEY', ' XL', ' HYLN', ' PTEN', ' DHT', ' FGEN', ' WPG', ' FBASF', ' RMO', ' LTRPB', ' MKTY', ' IKNA', ' ACHL',
 ' GASS', ' MERC', ' CGEM', ' AMR', ' JT', ' VCTR', ' CTG', ' VIVO', ' EXPR', ' HOLX', ' BWA', ' DHI', ' SBSW', ' EBAY', ' LEN', ' CE', ' TLK', ' SNP', ' TEF', ' EBR-B', ' EBR', ' PPL', ' SHG', ' PKX', ' ORAN', ' VIV', ' REGN', ' FE',
-' FMS', ' FRE.DE', ' 11C.F', ' PSHD.L', ' GXI.DE', ' HFG.DE', ' PLUG.DE', ' COIN', ' SEED', ' NOEC', ' COUR', ' AVD', ' IPI', ' EEM', ' MFS=F', ' MME=F', ' EWZ', ' EFA', ' DOCN', ' OLO', ' ACVA', ' ACHL', ' IMCR', ' TUYA', ' DSGN', ' IO', ' SEEL', 
+' FMS', ' FRE.DE', ' 11C.F', ' PSHD.L', ' GXI.DE', ' HFG.DE', ' PLUG.DE', ' COIN', ' SEED', ' NOEC', ' COUR', ' AVD', ' IPI', ' EEM', ' MFS=F', ' MME=F', ' EWZ', ' EFA', ' DOCN', ' OLO', ' ACVA', ' IMCR', ' TUYA', ' DSGN', ' IO', ' SEEL', 
 ' BBQ', ' FIXX', ' GALT', ' MAXN', ' GRAY', ' LHX', ' ODT', ' LW', ' LHDX', ' ISIG', ' BSIG', ' NFH', ' JRO', ' OUST', ' TPCO', ' ALRM', ' CAG', ' BNSO', ' JDCMF', ' YUMC', ' EDU', ' TAL', ' WEED.TO', ' TAB', ' TGOD.TO', ' TGODF', ' YM=F', 
 ' ES=F', ' NQ=F', ' RTY=F', ' ^FTSE', ' ^CMC200', ' BIDU', ' VIPS', ' WB', ' YY', ' DADA', ' ZH', ' DOYU', ' DAO', ' SOGO', ' BZUN', ' CANG', ' SOHU', ' JFIN', ' LIZI', ' BLCT', ' MTD', ' ILMN', ' USDRUB=X', ' USDJPY=X', ' USDCAD=X',
 ' JWEL', ' OCG', ' JD', ' KWEB', ' CQQQ', ' KBA', ' MCHI', ' CHIQ', ' 03690', ' QTEC', ' IXN', ' IGV', ' FTEC', ' IYW', ' FDN', ' VGT', ' XLK', ' VOO', ' ESGU', ' O', ' IPO', ' LTC', ' STAG', ' DX', ' MAIN', ' PSEC', ' GLAD', ' GOOD',
@@ -126,7 +125,12 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 ' SNA', ' MOS', ' NLSN', ' LAZ', ' LH', ' MSGE', ' WU', ' AQUA', ' CHNG', ' ZUO', ' PCPH', ' TECK', ' DXCM', ' ECV.F', ' OCGN', ' MWW', ' ITOS', ' TDOC', ' PATH', ' PHX', ' RPHM', ' EPSM', ' WORK', ' BWEN', ' BLFS', ' STON', ' CUK',
 ' AMRS', ' PAYC', ' PCRX', ' GH', ' ZI', ' OSH', ' MEDP', ' NCNO', ' IART', ' MTEM', ' PPG', ' WEX', ' TTCF', ' CUK', ' GMS', ' SPAC', ' QUBT', ' 7CD.F', ' 3CP.F', ' 11C.F', ' VAR1.DE', ' NNND.F', ' D7G.F', ' AHLA.DE', ' XSDG.F', ' HYMTF', ' 005930.KS', ' SSUN.F',
 ' MTX.DE', ' NDA.DE', ' AIR.DE', ' S92.DE', ' MMQ', ' 5CV.DE', ' VBK.DE', ' EVD.DE', ' GFT.DE', ' DEQ.DE', ' MEI', ' EMAN', ' ZION', ' ORCC', ' SNMP', ' CRM', ' CLI', ' NPCE', ' VSEC', ' SFBS', ' HMN', ' MTZ', ' NJR', ' AX', ' PBLA', ' AE', ' AFT', ' AGM',
-' ALG', ' BBSI', ' EBIX', ' IGI', ' IGIC', ' SMP', ' VRS', ' VKI', ' TACT', ' ARDC', ' BLX', ' GTN', ' HNNA', ' FRO', ' AMPY', ' NSRGY')
+' ALG', ' BBSI', ' EBIX', ' IGI', ' IGIC', ' SMP', ' VRS', ' VKI', ' TACT', ' ARDC', ' BLX', ' GTN', ' HNNA', ' FRO', ' AMPY', ' NSRGY', ' SUZ', ' NTCO', ' TIMB', ' AZRE', ' YTRA', ' SIFY', ' IBN', ' WIT', ' WNS', ' INFY', ' VEDL', ' PAGS', ' IX',
+' NMR', ' LN', ' AU', ' HMY', ' DRD', ' UEPS', ' SMFG', ' CAJ', ' JMIA', ' IMTX', ' AFMD', ' CNTG', ' CLLS', ' CNHI', ' CPRI', ' CSTM', ' TLND', ' TRVG', ' VIAO', ' ERYP', ' LBTYA', ' JHG', ' IVA', ' EDAP', ' SQNS', ' IFRX', ' GNFT', ' WPP',
+' ABCM', ' ALDX', ' VXRT', ' TBI', ' BHSEU', ' DBVT', ' IHG', ' DAVA', ' MYT', ' RIBT', ' FCBP', ' NTWK', ' IPHA', ' LBTYK', ' FTI', ' YFI-EUR', ' LIQT', ' AAN', ' BFRA', ' INFO', ' PNR', ' AY', ' RELX', ' BCS', ' LYG', ' FCAU', ' SNN', ' PSO', ' LIVN',
+' PTR', ' XPEV', ' LU', ' HTHT', ' GDS', ' BGNE', ' ZTO', ' MNSO', ' ZNH', ' GSX', ' CEA', ' YSG', ' HNP', ' OCFT', ' SID', ' SBS', ' BRFS', ' CZZ', ' VSTA', ' LINX', ' UGP', ' BAK', ' CBD', ' ARCE', ' ERJ', ' LND', ' CIG', ' ELP', ' AZUL',
+' AFYA', ' GOL', ' VTRU', ' GLOB', ' TIGO', ' NEXA', ' AGRO', ' WF', ' KEP', ' CAAP', ' MX', ' ASPS', ' ATTO', ' KB', ' KT')
+
 
 
 
@@ -236,7 +240,7 @@ st.markdown("<h2 style='text-align: center; color: white;'>  </h2>", unsafe_allo
 link = '[Activity of super investors and insiders](https://www.dataroma.com/m/home.php)'
 st.markdown(link, unsafe_allow_html=True)
 
-link = '[Finviz, great for filtering stocks](https://www.dataroma.com/m/home.php)'
+link = '[Finviz, great for filtering stocks](https://finviz.com/screener.ashx)'
 st.markdown(link, unsafe_allow_html=True)
 
 link = '[Github Repo](https://github.com/facebook/prophet)'
