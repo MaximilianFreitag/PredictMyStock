@@ -129,7 +129,8 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 ' NMR', ' LN', ' AU', ' HMY', ' DRD', ' UEPS', ' SMFG', ' CAJ', ' JMIA', ' IMTX', ' AFMD', ' CNTG', ' CLLS', ' CNHI', ' CPRI', ' CSTM', ' TLND', ' TRVG', ' VIAO', ' ERYP', ' LBTYA', ' JHG', ' IVA', ' EDAP', ' SQNS', ' IFRX', ' GNFT', ' WPP',
 ' ABCM', ' ALDX', ' VXRT', ' TBI', ' BHSEU', ' DBVT', ' IHG', ' DAVA', ' MYT', ' RIBT', ' FCBP', ' NTWK', ' IPHA', ' LBTYK', ' FTI', ' YFI-EUR', ' LIQT', ' AAN', ' BFRA', ' INFO', ' PNR', ' AY', ' RELX', ' BCS', ' LYG', ' FCAU', ' SNN', ' PSO', ' LIVN',
 ' PTR', ' XPEV', ' LU', ' HTHT', ' GDS', ' BGNE', ' ZTO', ' MNSO', ' ZNH', ' GSX', ' CEA', ' YSG', ' HNP', ' OCFT', ' SID', ' SBS', ' BRFS', ' CZZ', ' VSTA', ' LINX', ' UGP', ' BAK', ' CBD', ' ARCE', ' ERJ', ' LND', ' CIG', ' ELP', ' AZUL',
-' AFYA', ' GOL', ' VTRU', ' GLOB', ' TIGO', ' NEXA', ' AGRO', ' WF', ' KEP', ' CAAP', ' MX', ' ASPS', ' ATTO', ' KB', ' KT', ' IPOE', ' PE', ' CRSR', ' R', ' CLF', ' SF', ' TDOC', ' E', ' B', ' DM', ' TV', ' HUYA', ' PUMP', ' EBET', ' TDUP', ' COMP', ' HNST')
+' AFYA', ' GOL', ' VTRU', ' GLOB', ' TIGO', ' NEXA', ' AGRO', ' WF', ' KEP', ' CAAP', ' MX', ' ASPS', ' ATTO', ' KB', ' KT', ' IPOE', ' PE', ' CRSR', ' R', ' CLF', ' SF', ' TDOC', ' E', ' B', ' DM', ' TV', ' HUYA', ' PUMP', ' EBET', ' TDUP', ' COMP', ' HNST', 
+         ' ANAT', ' CNXC', ' GGG', ' SCHL', ' OMI', ' DAR', ' DECK')
 
 
 
