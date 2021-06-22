@@ -247,7 +247,7 @@ st.markdown(link, unsafe_allow_html=True)
 link = '[Finviz, great for filtering stocks](https://finviz.com/screener.ashx)'
 st.markdown(link, unsafe_allow_html=True)
 
-link = '[Another insider buy site](http://openinsider.com/)'
+link = '[Another insider buy and sales site](http://openinsider.com/)'
 st.markdown(link, unsafe_allow_html=True)
 
 link = '[Github Repo](https://github.com/facebook/prophet)'
