@@ -49,7 +49,7 @@ st.markdown("<h2 style='text-align: center; color: black;'>Enter your stock and 
 
 #https://ibb.co/FqhFwD3
 
-st.markdown("<h5 style='text-align: center; color: black;'>(Please note that the results are not a guarantee and you buy stocks at your own risk. With this project I wanted to enable people to apply machine learning code to their stocks for free. If an error occurs the stock is not in my stock list. Prices are in US dollars. I also added crypto currencies </h5>", unsafe_allow_html=True)
+st.markdown("<h5 style='text-align: center; color: black;'>(Please note that the results are not a guarantee and you buy stocks at your own risk. With this project I wanted to enable people to apply machine learning code to their stocks for free. If an error occurs the stock is not in my stock list. Prices are in US dollars. I also added crypto currencies (e.g. BTC-USD, ETH-USD,...)</h5>", unsafe_allow_html=True)
 
 st.markdown("<h5 style='text-align: center; color: black;'>                 </h5>", unsafe_allow_html=True)
 
@@ -245,6 +245,9 @@ link = '[Activity of super investors and insiders](https://www.dataroma.com/m/ho
 st.markdown(link, unsafe_allow_html=True)
 
 link = '[Finviz, great for filtering stocks](https://finviz.com/screener.ashx)'
+st.markdown(link, unsafe_allow_html=True)
+
+link = '[Another insider buy site](http://openinsider.com/)'
 st.markdown(link, unsafe_allow_html=True)
 
 link = '[Github Repo](https://github.com/facebook/prophet)'
