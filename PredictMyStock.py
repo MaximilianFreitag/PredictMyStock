@@ -134,7 +134,7 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 ' NXRT', ' GPRO', ' UNVR', ' BE', ' VTNR', ' GOED', ' RSI', ' MAX', ' BXC', ' CRC', ' FELE', ' LB', ' GAN', ' MPWR', ' CNMD', ' PGNY', ' OTRK', ' ALLK', ' RM', ' ROLL', ' VITL', ' FDP', ' HCAT', ' APLT', ' CONN', ' LSCC', ' CHEF', ' WDL.DE', ' BLDP', ' ZIP', ' FLUX',
 ' IVR', ' CLNE', ' WKHS', ' WEN', ' MAN', ' FLY', ' RC', ' X', ' INO', ' TRIT', ' SP', ' KEN', ' CALM', ' CASH', ' TWNK', ' STAR', ' NAV', ' SDC', ' VERY', ' STAR', ' RUN', ' TR', ' SKY', ' H', ' ADPT', ' ASAN', ' ALTO', ' CURO', ' SURF', ' FNKO', ' SNAP', ' ATRA',
 ' SUM', ' STKS', ' FLEX', ' IDYA', ' CLR', ' GWRE', ' PRAH', ' STAY', ' TPL', ' HGEN', ' MPAA', ' COUP', 'SHRA', ' AYRO', ' REVG', ' VERV', ' XAIR', ' RIG', ' QSR', ' JANX', ' FRG', ' EGHT', ' PAY', ' SPLP', ' NHF', ' CSV', ' PDSB', ' HWBK', ' CNVY', ' PTVE', ' FTCV',
-' AOMR', ' RRD', ' TARS', ' KEY', ' CASA', ' LUNG', ' TREC', ' SIVB', ' KLR')
+' AOMR', ' RRD', ' TARS', ' KEY', ' CASA', ' LUNG', ' TREC', ' SIVB', ' KLR', ' SGEN')
 
 
 
