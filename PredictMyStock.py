@@ -14,12 +14,12 @@ st.set_page_config(
 
 
 
-hide_streamlit_style = """
-            <style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            </style>
-            """
+#hide_streamlit_style = """
+#            <style>
+#            #MainMenu {visibility: hidden;}
+#            footer {visibility: hidden;}
+#            </style>
+#            """
 
 st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
 
@@ -139,19 +139,18 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 
 
 
+selected_stock = st.selectbox('Select the ticker symbol for the stock you want to predict', stocks)
+
+n_years = st.slider('Years of prediction:', 1, 2)
+period = n_years * 365
+
+
 
 @st.cache
 def load_data(ticker):
     data = yf.download(ticker, START, TODAY)
     data.reset_index(inplace=True)
     return data
-
-
-
-selected_stock = st.selectbox('Select the ticker symbol for the stock you want to predict', stocks)
-
-n_years = st.slider('Years of prediction:', 1, 2)
-period = n_years * 365
 
 
 
