@@ -147,8 +147,8 @@ period = n_years * 365
 
 
 @st.cache
-def load_data(ticker):
-    data = yf.download(ticker, START, TODAY)
+def load_data(stocks):
+    data = yf.download(stocks, START, TODAY)
     data.reset_index(inplace=True)
     return data
 
