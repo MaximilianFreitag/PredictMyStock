@@ -132,10 +132,7 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 ' AFYA', ' GOL', ' VTRU', ' GLOB', ' TIGO', ' NEXA', ' AGRO', ' WF', ' KEP', ' CAAP', ' MX', ' ASPS', ' ATTO', ' KB', ' KT', ' IPOE', ' PE', ' CRSR', ' R', ' CLF', ' SF', ' TDOC', ' E', ' B', ' DM', ' TV', ' HUYA', ' PUMP', ' EBET', ' TDUP', ' COMP', ' HNST', 
 ' ANAT', ' CNXC', ' GGG', ' SCHL', ' OMI', ' DAR', ' DECK', ' MOSI', ' III', ' ZYME', ' SXC', ' TBT', ' VACQ', ' HP', ' PDS', ' ARPO', ' MRNS', ' MDP', ' GNK', ' GOGL', ' STNG', ' LLIT', ' MOSY', ' GRBK', ' POOL', ' MSM', ' CABO', ' XM', ' VAPO', ' IFF', ' RADI', ' QUAD',
 ' NXRT', ' GPRO', ' UNVR', ' BE', ' VTNR', ' GOED', ' RSI', ' MAX', ' BXC', ' CRC', ' FELE', ' LB', ' GAN', ' MPWR', ' CNMD', ' PGNY', ' OTRK', ' ALLK', ' RM', ' ROLL', ' VITL', ' FDP', ' HCAT', ' APLT', ' CONN', ' LSCC', ' CHEF', ' WDL.DE', ' BLDP', ' ZIP', ' FLUX',
-' IVR', ' CLNE', ' WKHS', ' WEN', ' MAN', ' FLY', ' RC', ' X', ' INO', ' TRIT', ' SP', ' KEN', ' CALM', ' CASH', ' TWNK', ' STAR', ' NAV', ' SDC', ' VERY', ' STAR', ' RUN', ' TR', ' SKY', ' H', ' ADPT', ' ASAN', ' ALTO', ' CURO', ' SURF', ' FNKO', ' SNAP', ' ATRA',
-' SUM', ' STKS', ' FLEX', ' IDYA', ' CLR', ' GWRE', ' PRAH', ' STAY', ' TPL', ' HGEN', ' MPAA', ' COUP', 'SHRA', ' AYRO', ' REVG', ' VERV', ' XAIR', ' RIG', ' QSR', ' JANX', ' FRG', ' EGHT', ' PAY', ' SPLP', ' NHF', ' CSV', ' PDSB', ' HWBK', ' CNVY', ' PTVE', ' FTCV',
-' AOMR', ' RRD', ' TARS', ' KEY', ' CASA', ' LUNG', ' TREC', ' SIVB', ' KLR', ' SGEN', ' PLL', ' STTK', ' LLL', ' RRR', ' TPGY', ' USIO', ' NARI', ' CDMO', ' KFY', ' CARG', ' DRTT', ' QEQ', ' OIO', ' IDT', ' XFLT', ' PACB', ' ROCC', ' SSB', ' TVJ', ' TBE', ' UEU',
-' ORA', ' ILD', ' UHR', ' ABI', ' TKWI', ' TSCO', ' TTE', ' FTI', 'SLB', ' JSK', ' JHH', ' MDE', ' JEE')
+' IVR', ' CLNE', ' WKHS', ' WEN', ' MAN', ' FLY', ' RC', ' X')
 
 
 
