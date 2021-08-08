@@ -1,17 +1,17 @@
-
 import streamlit as st
 from datetime import date
+
 import yfinance as yf
 from fbprophet import Prophet
 from fbprophet.plot import plot_plotly
 from plotly import graph_objs as go
-import time
+
+
 
 st.set_page_config(
         page_title='Predict My Stocks                 ',
         page_icon="📈"
         )
-
 
 
 #hide_streamlit_style = """
@@ -25,29 +25,13 @@ st.set_page_config(
 
 
 
-def _max_width_():
-    max_width_str = f"max-width: 1500px;"
-    st.markdown(
-        f"""
-    <style>
-    .reportview-container .main .block-container{{
-        {max_width_str}
-    }}
-    </style>    
-    """,
-        unsafe_allow_html=True,
-    )
 
-
-START = "2000-01-01"
-TODAY = date.today().strftime("%Y-%m-%d")
+st.title('Stocks App')
 
 st.markdown("<h1 style='text-align: center; color: black;'>Predict My Stocks</h1>", unsafe_allow_html=True)
 
 st.markdown("<h2 style='text-align: center; color: black;'>Enter your stock and wait 10-20 seconds for the machine learning code to process the data </h2>", unsafe_allow_html=True)
 
-
-#https://ibb.co/FqhFwD3
 
 st.markdown("<h5 style='text-align: center; color: black;'>(Please note that the results are not a guarantee and you buy stocks at your own risk. With this project I wanted to enable people to apply machine learning code to their stocks for free. If an error occurs the stock is not in my stock list. Prices are in US dollars. I also added crypto currencies (e.g. BTC-USD, ETH-USD,...)</h5>", unsafe_allow_html=True)
 
@@ -55,6 +39,9 @@ st.markdown("<h5 style='text-align: center; color: black;'>                 </h5
 
 st.markdown("<h5 style='text-align: center; color: black;'>                 </h5>", unsafe_allow_html=True)
 
+
+START = "2000-01-01"
+TODAY = date.today().strftime("%Y-%m-%d")
 
 
 stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', ' ORCL', ' SNPS', ' VRSN', ' ACN', ' IBM', ' CRM', ' NOW', ' FIS', ' FISV', ' ADSK', ' INTU', ' COMMU', ' CSCO', ' AMAT', ' APH', ' HPQ', ' MSI', ' V', ' DIS',
@@ -136,12 +123,10 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 
 
 
+selected_stock = st.selectbox('Select dataset for prediction', stocks)
 
-selected_stock = st.selectbox('Select the ticker symbol for the stock you want to predict', stocks)
-
-n_years = st.slider('Years of prediction:', 1, 2)
+n_years = st.slider('Years of prediction:', 1, 4)
 period = n_years * 365
-
 
 
 @st.cache
@@ -150,10 +135,8 @@ def load_data(ticker):
     data.reset_index(inplace=True)
     return data
 
-
-
+	
 data_load_state = st.text('Loading data...')
-
 data = load_data(selected_stock)
 data_load_state.text('Loading data... done!')
 
@@ -162,22 +145,13 @@ st.write(data.tail())
 
 # Plot raw data
 def plot_raw_data():
-    fig = go.Figure()
-    fig.add_trace(go.Scatter(x=data['Date'], y=data['Open'], name="stock_open"))
-    fig.add_trace(go.Scatter(x=data['Date'], y=data['Close'], name="stock_close"))
-    fig.layout.update(title_text='Time Series Data of stock (without forcast)', xaxis_rangeslider_visible=True)
-    st.plotly_chart(fig)
-
+	fig = go.Figure()
+	fig.add_trace(go.Scatter(x=data['Date'], y=data['Open'], name="stock_open"))
+	fig.add_trace(go.Scatter(x=data['Date'], y=data['Close'], name="stock_close"))
+	fig.layout.update(title_text='Time Series data with Rangeslider', xaxis_rangeslider_visible=True)
+	st.plotly_chart(fig)
+	
 plot_raw_data()
-
-def plot_raw_data_two():
-    fig = go.Figure()
-    fig.add_trace(go.Scatter(x=data['Date'], y=data['Volume'], name="Volume of stock"))
-    fig.layout.update(title_text='Time Series Data of the volume (without forcast)', xaxis_rangeslider_visible=True)
-    st.plotly_chart(fig)
-
-plot_raw_data_two()
-        
 
 # Predict forecast with Prophet.
 df_train = data[['Date','Close']]
@@ -188,35 +162,19 @@ m.fit(df_train)
 future = m.make_future_dataframe(periods=period)
 forecast = m.predict(future)
 
-
-
-
-#Show cat GIF
-#if m.predict(future) == True:
-#    st.markdown("![Alt Text](https://media.giphy.com/media/lLo0vQHigkMzGETtu/giphy.gif)")
-
-
 # Show and plot forecast
-#st.subheader('Forecast data')
-st.markdown("<h2 style='text-align: center; color: black;'>Forcast data set</h2>", unsafe_allow_html=True)
+st.subheader('Forecast data')
 st.write(forecast.tail())
     
-st.markdown("<h2 style='text-align: center; color: white;'>   </h2>", unsafe_allow_html=True)
-
-#st.write(f'Forecast plot for {n_years} year/s')
-st.markdown("<h2 style='text-align: center; color: black;'>Forecast plot </h2>", unsafe_allow_html=True)
-st.markdown("<h3 style='text-align: center; color: black;'>Use the slider to select the range of years </h3>", unsafe_allow_html=True)
-st.markdown("<h4 style='text-align: center; color: black;'>Data entries above the blue line = overvalued </h4>", unsafe_allow_html=True)
-st.markdown("<h4 style='text-align: center; color: black;'>Data entries underneath the blue line = undervalued </h4>", unsafe_allow_html=True)
-
+st.write(f'Forecast plot for {n_years} years')
 fig1 = plot_plotly(m, forecast)
 st.plotly_chart(fig1)
 
-st.markdown("<h2 style='text-align: center; color: black;'>Forcast Trends </h2>", unsafe_allow_html=True)
-
-st.write(" ")
+st.write("Forecast components")
 fig2 = m.plot_components(forecast)
 st.write(fig2)
+
+
 
 st.markdown("<h2 style='text-align: center; color: white;'>   </h2>", unsafe_allow_html=True)
 st.markdown("<h2 style='text-align: center; color: white;'>  </h2>", unsafe_allow_html=True)
@@ -233,13 +191,9 @@ st.markdown("<h4 style='text-align: center; color: black;'>Chart goes low = Stoc
 st.markdown("<h4 style='text-align: center; color: black;'>Chart goes up = Stock price is going up       </h4>", unsafe_allow_html=True)
 
 
+
 st.markdown("<h2 style='text-align: center; color: white;'>   </h2>", unsafe_allow_html=True)
 st.markdown("<h2 style='text-align: center; color: white;'>  </h2>", unsafe_allow_html=True)
-
-
-
-
-
 
 link = '[Activity of super investors and insiders](https://www.dataroma.com/m/home.php)'
 st.markdown(link, unsafe_allow_html=True)
