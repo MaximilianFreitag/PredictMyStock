@@ -26,8 +26,6 @@ st.set_page_config(
 
 
 
-st.title('Stocks App')
-
 st.markdown("<h1 style='text-align: center; color: black;'>Predict My Stocks</h1>", unsafe_allow_html=True)
 
 st.markdown("<h2 style='text-align: center; color: black;'>Enter your stock and wait 10-20 seconds for the machine learning code to process the data </h2>", unsafe_allow_html=True)
@@ -119,12 +117,13 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 ' AFYA', ' GOL', ' VTRU', ' GLOB', ' TIGO', ' NEXA', ' AGRO', ' WF', ' KEP', ' CAAP', ' MX', ' ASPS', ' ATTO', ' KB', ' KT', ' IPOE', ' PE', ' CRSR', ' R', ' CLF', ' SF', ' TDOC', ' E', ' B', ' DM', ' TV', ' HUYA', ' PUMP', ' EBET', ' TDUP', ' COMP', ' HNST', 
 ' ANAT', ' CNXC', ' GGG', ' SCHL', ' OMI', ' DAR', ' DECK', ' MOSI', ' III', ' ZYME', ' SXC', ' TBT', ' VACQ', ' HP', ' PDS', ' ARPO', ' MRNS', ' MDP', ' GNK', ' GOGL', ' STNG', ' LLIT', ' MOSY', ' GRBK', ' POOL', ' MSM', ' CABO', ' XM', ' VAPO', ' IFF', ' RADI', ' QUAD',
 ' NXRT', ' GPRO', ' UNVR', ' BE', ' VTNR', ' GOED', ' RSI', ' MAX', ' BXC', ' CRC', ' FELE', ' LB', ' GAN', ' MPWR', ' CNMD', ' PGNY', ' OTRK', ' ALLK', ' RM', ' ROLL', ' VITL', ' FDP', ' HCAT', ' APLT', ' CONN', ' LSCC', ' CHEF', ' WDL.DE', ' BLDP', ' ZIP', ' FLUX',
-' IVR', ' CLNE', ' WKHS', ' WEN', ' MAN', ' FLY', ' RC', ' X', ' HHO', ' JWF',' KWQ', ' IIQ', ' BQQ', ' RJJ', ' OWW', ' UEM', ' KWW', ' WVV', ' JWF', ' JRR', ' LKK', ' IEL', ' URQ', ' HKK', ' OEP', ' EMF')
+' IVR', ' CLNE', ' WKHS', ' WEN', ' MAN', ' FLY', ' RC', ' X', ' HHO', ' JWF',' KWQ', ' IIQ', ' ORA', ' ILD.PA', ' UHR',' TKWI', ' ABI', ' TSCO', ' TTE', ' FTI',' SLB', ' INGA', ' LSEG', ' ADVU', ' CFX')
+
 
 
 selected_stock = st.selectbox('Select dataset for prediction', stocks)
 
-n_years = st.slider('Years of prediction:', 1, 4)
+n_years = st.slider('Years of prediction:', 1, 2)
 period = n_years * 365
 
 
@@ -156,10 +155,20 @@ plot_raw_data()
 df_train = data[['Date','Close']]
 df_train = df_train.rename(columns={"Date": "ds", "Close": "y"})
 
+
+
+
+
 m = Prophet()
 m.fit(df_train)
 future = m.make_future_dataframe(periods=period)
 forecast = m.predict(future)
+
+
+
+
+
+
 
 # Show and plot forecast
 st.subheader('Forecast data')
@@ -193,6 +202,15 @@ st.markdown("<h4 style='text-align: center; color: black;'>Chart goes up = Stock
 
 st.markdown("<h2 style='text-align: center; color: white;'>   </h2>", unsafe_allow_html=True)
 st.markdown("<h2 style='text-align: center; color: white;'>  </h2>", unsafe_allow_html=True)
+
+
+
+
+
+
+
+
+
 
 link = '[Activity of super investors and insiders](https://www.dataroma.com/m/home.php)'
 st.markdown(link, unsafe_allow_html=True)
