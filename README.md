@@ -5,8 +5,8 @@ A machine learning driven web application to predict stocks
 <br />
 
 <p align="center">
-    <a href="https://github.com/MaximilianFreitag/birthday_calculator">
-        <img src="https://github.com/MaximilianFreitag/birthday_calculator/blob/main/birth.png">
+    <a href="https://github.com/MaximilianFreitag/PredictMyStock">
+        <img src="https://github.com/MaximilianFreitag/PredictMyStock/blob/main/1414.jpg">
     </a>
 </p>
 
