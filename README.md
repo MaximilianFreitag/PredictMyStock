@@ -1,7 +1,7 @@
 # PredictMyStock
 A machine learning driven web application to predict stocks
 
-## About The Project
+
 <br />
 
 <p align="center">
