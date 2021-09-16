@@ -6,7 +6,7 @@ A machine learning driven web application to predict stocks
 
 <p align="center">
     <a href="https://github.com/MaximilianFreitag/PredictMyStock">
-        <img src="https://github.com/MaximilianFreitag/PredictMyStock/blob/main/1414.jpg">
+        <img src="https://github.com/MaximilianFreitag/PredictMyStock/blob/main/z_front_cover.jpg">
     </a>
 </p>
 
