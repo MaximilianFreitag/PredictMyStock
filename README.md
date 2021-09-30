@@ -1,6 +1,8 @@
 # PredictMyStock
 A machine learning driven web application to predict stocks
 
+Test it out yourself ---> [Demo](https://predictmystocks.herokuapp.com/)
+
 
 <br />
 
@@ -13,9 +15,6 @@ A machine learning driven web application to predict stocks
 <br />
 
 An app that takes times series data of a specific stock from the last 20 years and applies machine learning on the data to output a prediction. 
-
-
-Test it out yourself ---> [Demo](https://predictmystocks.herokuapp.com/)
 
 
 <br />
