@@ -122,7 +122,7 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 
 
 
-selected_stock = st.selectbox('Select dataset for prediction', stocks)
+selected_stock = st.selectbox('Select Stock Ticker Symbol', stocks)
 
 n_years = st.slider('Years of prediction:', 1, 2)
 period = n_years * 365
