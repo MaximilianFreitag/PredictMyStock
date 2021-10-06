@@ -12,12 +12,13 @@ st.set_page_config(
         page_icon="📈"
         )
 
+st.markdown("<h1 style='text-align: center; color: black;'>Predict My Stocks</h1>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center; color: black;'>Enter your stock and wait 10-20 seconds for the machine learning code to process the data </h2>", unsafe_allow_html=True)
+st.markdown("<h5 style='text-align: center; color: black;'>(Please note that the results are not a guarantee and you buy stocks at your own risk. With this project I wanted to enable people to apply machine learning code to their stocks for free. If an error occurs the stock is not in my stock list. Prices are in US dollars. I also added crypto currencies (e.g. BTC-USD, ETH-USD,...)</h5>", unsafe_allow_html=True)
+st.markdown("<h5 style='text-align: center; color: black;'>                 </h5>", unsafe_allow_html=True)
 
-st.title('Stock Price Prediction')
 
 st.markdown("<h2 style='text-align: center; color: white;'>  </h2>", unsafe_allow_html=True)
-
-
 
 stock_name = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', ' ORCL', ' SNPS', ' VRSN', ' ACN', ' IBM', ' CRM', ' NOW', ' FIS', ' FISV', ' ADSK', ' INTU', ' COMMU', ' CSCO', ' AMAT', ' APH', ' HPQ', ' MSI', ' V', ' DIS',
 ' CMCSA', ' VZ', ' T', ' TMUS', ' NFLX', ' CHTR', ' NVDA', ' AVGO', ' QCOM', ' TXN', ' MU', ' AMD', ' XLNX', ' MCHP', ' ADI', ' JPM', ' BAC', ' BRK-B', ' AXP', ' COF', ' C', ' WFC', ' USB', ' PNC', ' MS', ' GS', ' SCHW', ' RF', ' ICE', ' SPGI',
@@ -102,12 +103,15 @@ col1, col2 = st.columns(2)
 with col1:
 
     selected_stock = st.selectbox('Select Stock Ticker', stock_name)
+    
+
+
 
 with col2:
 
         option = st.selectbox(
             'Choose starting point',
-            ('2010-01-01', '2015-01-01', '2020-01-01', '2021-01-01'))
+            ('2000-01-01', '2005-01-01', '2010-01-01', '2015-01-01', '2018-01-01', '2020-01-01', '2021-01-01', '2021-05-01', '2021-10-01'))
 
 
 START = option
@@ -217,3 +221,4 @@ st.markdown(link, unsafe_allow_html=True)
 
 link = '[Buy me a coffee](https://www.buymeacoffee.com/MaxMnemo)'
 st.markdown(link, unsafe_allow_html=True)
+
