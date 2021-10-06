@@ -1,6 +1,5 @@
-import streamlit as st
 from datetime import date
-
+import streamlit as st
 import yfinance as yf
 from fbprophet import Prophet
 from fbprophet.plot import plot_plotly
@@ -13,36 +12,11 @@ st.set_page_config(
         page_icon="📈"
         )
 
+st.title('Stock Price Prediction')
 
-#hide_streamlit_style = """
-#            <style>
-#            #MainMenu {visibility: hidden;}
-#            footer {visibility: hidden;}
-#            </style>
-#            """
+st.markdown("<h2 style='text-align: center; color: white;'>  </h2>", unsafe_allow_html=True)
 
-#st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
-
-
-
-
-st.markdown("<h1 style='text-align: center; color: black;'>Predict My Stocks</h1>", unsafe_allow_html=True)
-
-st.markdown("<h2 style='text-align: center; color: black;'>Enter your stock and wait 10-20 seconds for the machine learning code to process the data </h2>", unsafe_allow_html=True)
-
-
-st.markdown("<h5 style='text-align: center; color: black;'>(Please note that the results are not a guarantee and you buy stocks at your own risk. With this project I wanted to enable people to apply machine learning code to their stocks for free. If an error occurs the stock is not in my stock list. Prices are in US dollars. I also added crypto currencies (e.g. BTC-USD, ETH-USD,...)</h5>", unsafe_allow_html=True)
-
-st.markdown("<h5 style='text-align: center; color: black;'>                 </h5>", unsafe_allow_html=True)
-
-st.markdown("<h5 style='text-align: center; color: black;'>                 </h5>", unsafe_allow_html=True)
-
-
-START = "2000-01-01"
-TODAY = date.today().strftime("%Y-%m-%d")
-
-
-stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', ' ORCL', ' SNPS', ' VRSN', ' ACN', ' IBM', ' CRM', ' NOW', ' FIS', ' FISV', ' ADSK', ' INTU', ' COMMU', ' CSCO', ' AMAT', ' APH', ' HPQ', ' MSI', ' V', ' DIS',
+stock_name = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', ' ORCL', ' SNPS', ' VRSN', ' ACN', ' IBM', ' CRM', ' NOW', ' FIS', ' FISV', ' ADSK', ' INTU', ' COMMU', ' CSCO', ' AMAT', ' APH', ' HPQ', ' MSI', ' V', ' DIS',
 ' CMCSA', ' VZ', ' T', ' TMUS', ' NFLX', ' CHTR', ' NVDA', ' AVGO', ' QCOM', ' TXN', ' MU', ' AMD', ' XLNX', ' MCHP', ' ADI', ' JPM', ' BAC', ' BRK-B', ' AXP', ' COF', ' C', ' WFC', ' USB', ' PNC', ' MS', ' GS', ' SCHW', ' RF', ' ICE', ' SPGI',
 ' CME', ' MSCI', ' BLK', ' BK', ' STT', ' AON', ' MET', ' GL', ' L', ' BSX', ' BIO', ' EW', ' MDT', ' SYK', ' ABT', ' TMO', ' DHR', ' A', ' IQV', ' MTD', ' PFE', ' JNJ', ' MRK', ' ABBV', ' AMGN', ' GILD',
 ' BMY', ' LYV', ' EA', ' ATVI', ' UNH', ' G' ,' HUM', ' LOW', ' HD', ' MCD', ' SBUX', ' NKE', ' BKNG', ' TJX', ' ROST', ' SPECIA', ' BLL', ' LODGI', ' XOM', ' CVX', ' PSX', ' MPC', ' OKE', ' EOG', ' AMT', ' EQIX', ' SBAC', ' O', ' SPG',
@@ -117,16 +91,29 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 ' AFYA', ' GOL', ' VTRU', ' GLOB', ' TIGO', ' NEXA', ' AGRO', ' WF', ' KEP', ' CAAP', ' MX', ' ASPS', ' ATTO', ' KB', ' KT', ' IPOE', ' PE', ' CRSR', ' R', ' CLF', ' SF', ' TDOC', ' E', ' B', ' DM', ' TV', ' HUYA', ' PUMP', ' EBET', ' TDUP', ' COMP', ' HNST', 
 ' ANAT', ' CNXC', ' GGG', ' SCHL', ' OMI', ' DAR', ' DECK', ' MOSI', ' III', ' ZYME', ' SXC', ' TBT', ' VACQ', ' HP', ' PDS', ' ARPO', ' MRNS', ' MDP', ' GNK', ' GOGL', ' STNG', ' LLIT', ' MOSY', ' GRBK', ' POOL', ' MSM', ' CABO', ' XM', ' VAPO', ' IFF', ' RADI', ' QUAD',
 ' NXRT', ' GPRO', ' UNVR', ' BE', ' VTNR', ' GOED', ' RSI', ' MAX', ' BXC', ' CRC', ' FELE', ' LB', ' GAN', ' MPWR', ' CNMD', ' PGNY', ' OTRK', ' ALLK', ' RM', ' ROLL', ' VITL', ' FDP', ' HCAT', ' APLT', ' CONN', ' LSCC', ' CHEF', ' WDL.DE', ' BLDP', ' ZIP', ' FLUX',
-' IVR', ' CLNE', ' WKHS', ' WEN', ' MAN', ' FLY', ' RC', ' X', ' HHO', ' JWF',' KWQ', ' IIQ', ' ORA', ' ILD.PA', ' UHR',' TKWI', ' ABI', ' TSCO', ' TTE', ' FTI',' SLB', ' INGA', ' LSEG', ' ADVU', ' CFX', ' KRF', ' ZWZ', ' WFN', ' KEE', ' HUF', ' KEE', ' JRR'
-, ' JRW', ' GTE', ' SHIB-USD')
+' IVR', ' CLNE', ' WKHS', ' WEN', ' MAN', ' FLY', ' RC', ' X', ' HHO', ' JWF',' KWQ', ' IIQ', ' ORA', ' ILD.PA', ' UHR',' TKWI', ' ABI', ' TSCO', ' TTE', ' FTI',' SLB', ' INGA', ' LSEG', ' ADVU', ' CFX', ' SHIB-USD')
+
+
+col1, col2 = st.columns(2)
+
+with col1:
+
+    selected_stock = st.selectbox('Select Stock Ticker', stock_name)
+
+with col2:
+
+        option = st.selectbox(
+            'Choose starting point',
+            ('2010-01-01', '2015-01-01', '2020-01-01', '2021-01-01'))
+
+
+START = option
+TODAY = date.today().strftime("%Y-%m-%d")
 
 
 
-selected_stock = st.selectbox('Select Stock Ticker Symbol', stocks)
-
-n_years = st.slider('Years of prediction:', 1, 2)
-period = n_years * 365
-
+month = st.slider(' Predict XY months into the future:', 1,12 )
+period = month*30 
 
 @st.cache
 def load_data(ticker):
@@ -134,84 +121,81 @@ def load_data(ticker):
     data.reset_index(inplace=True)
     return data
 
-	
-data_load_state = st.text('Loading data...')
-data = load_data(selected_stock)
-data_load_state.text('Loading data... done!')
 
-st.subheader('Raw data')
+
+
+data_load_state = st.text('Please wait...')
+data = load_data(selected_stock)
+data_load_state.text('Loading data done!')
+
 st.write(data.tail())
 
-# Plot raw data
+
+
 def plot_raw_data():
 	fig = go.Figure()
 	fig.add_trace(go.Scatter(x=data['Date'], y=data['Open'], name="stock_open"))
 	fig.add_trace(go.Scatter(x=data['Date'], y=data['Close'], name="stock_close"))
-	fig.layout.update(title_text='Time Series data with Rangeslider', xaxis_rangeslider_visible=True)
+	fig.layout.update(title_text='Time Chart', xaxis_rangeslider_visible=True)
 	st.plotly_chart(fig)
 	
 plot_raw_data()
 
-# Predict forecast with Prophet.
-df_train = data[['Date','Close']]
-df_train = df_train.rename(columns={"Date": "ds", "Close": "y"})
+
+def plot_raw_data2():
+	fig2 = go.Figure()
+	fig2.add_trace(go.Scatter(x=data['Date'], y=data['Volume'], name="stock_volume"))
+	
+	fig2.layout.update(title_text='Volume', xaxis_rangeslider_visible=True)
+	st.plotly_chart(fig2)
+	
+plot_raw_data2()
 
 
+col1, col2, col3 = st.columns(3)
+
+with col2:
+
+    button = st.button('Predict My Stocks')
+
+if button == True:
+
+    data_load_state = st.image('https://media.giphy.com/media/gu9XBXiz60HlO5p9Nz/giphy.gif')
+    # Predict forecast with Prophet.
+    df_train = data[['Date','Close']]
+    df_train = df_train.rename(columns={"Date": "ds", "Close": "y"})
+
+    m = Prophet(seasonality_mode='multiplicative',
+    daily_seasonality = True,
+    weekly_seasonality= True,
+    yearly_seasonality = True)
+    m.fit(df_train)
+    future = m.make_future_dataframe(periods=period)
+    forecast = m.predict(future)
 
 
+    # Show and plot forecast
+    st.subheader('Forecast data')
+    st.write(forecast.tail())
+    #st.subheader("Predicted Stock price ")
+   # st.write(forecast[['ds','yhat']].tail(1))
 
-m = Prophet()
-m.fit(df_train)
-future = m.make_future_dataframe(periods=period)
-forecast = m.predict(future)
+    st.subheader('Forecast for Months')
+    fig1 = plot_plotly(m, forecast)
+    st.plotly_chart(fig1)
 
+    st.write("Forecast components")
+    fig2 = m.plot_components(forecast)
+    st.write(fig2)
 
-
-
-
-
-
-# Show and plot forecast
-st.subheader('Forecast data')
-st.write(forecast.tail())
-    
-st.write(f'Forecast plot for {n_years} years')
-fig1 = plot_plotly(m, forecast)
-st.plotly_chart(fig1)
-
-st.write("Forecast components")
-fig2 = m.plot_components(forecast)
-st.write(fig2)
+    data_load_state.text('Predicting data done ✔️')
 
 
 
 st.markdown("<h2 style='text-align: center; color: white;'>   </h2>", unsafe_allow_html=True)
 st.markdown("<h2 style='text-align: center; color: white;'>  </h2>", unsafe_allow_html=True)
-
-
-st.markdown("<h4 style='text-align: center; color: black;'>The yearly chart is the most interesting one. It shows you the buy and sell trends for each month. The weekly trend is not that interesting. It's usually from monday to friday on the lowest course because the stocks within a broker are more expensive on Saturday and Sunday due to extra fees from most brokers.       </h4>", unsafe_allow_html=True)
-
-
-st.markdown("<h2 style='text-align: center; color: white;'>   </h2>", unsafe_allow_html=True)
-
-st.markdown("<h4 style='text-align: center; color: black;'>Chart goes low = Stock price is lowering        </h4>", unsafe_allow_html=True)
-
-
-st.markdown("<h4 style='text-align: center; color: black;'>Chart goes up = Stock price is going up       </h4>", unsafe_allow_html=True)
-
-
-
 st.markdown("<h2 style='text-align: center; color: white;'>   </h2>", unsafe_allow_html=True)
 st.markdown("<h2 style='text-align: center; color: white;'>  </h2>", unsafe_allow_html=True)
-
-
-
-
-
-
-
-
-
 
 link = '[Activity of super investors and insiders](https://www.dataroma.com/m/home.php)'
 st.markdown(link, unsafe_allow_html=True)
