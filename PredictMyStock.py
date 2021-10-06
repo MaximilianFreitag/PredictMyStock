@@ -118,7 +118,7 @@ stocks = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE', '
 ' ANAT', ' CNXC', ' GGG', ' SCHL', ' OMI', ' DAR', ' DECK', ' MOSI', ' III', ' ZYME', ' SXC', ' TBT', ' VACQ', ' HP', ' PDS', ' ARPO', ' MRNS', ' MDP', ' GNK', ' GOGL', ' STNG', ' LLIT', ' MOSY', ' GRBK', ' POOL', ' MSM', ' CABO', ' XM', ' VAPO', ' IFF', ' RADI', ' QUAD',
 ' NXRT', ' GPRO', ' UNVR', ' BE', ' VTNR', ' GOED', ' RSI', ' MAX', ' BXC', ' CRC', ' FELE', ' LB', ' GAN', ' MPWR', ' CNMD', ' PGNY', ' OTRK', ' ALLK', ' RM', ' ROLL', ' VITL', ' FDP', ' HCAT', ' APLT', ' CONN', ' LSCC', ' CHEF', ' WDL.DE', ' BLDP', ' ZIP', ' FLUX',
 ' IVR', ' CLNE', ' WKHS', ' WEN', ' MAN', ' FLY', ' RC', ' X', ' HHO', ' JWF',' KWQ', ' IIQ', ' ORA', ' ILD.PA', ' UHR',' TKWI', ' ABI', ' TSCO', ' TTE', ' FTI',' SLB', ' INGA', ' LSEG', ' ADVU', ' CFX', ' KRF', ' ZWZ', ' WFN', ' KEE', ' HUF', ' KEE', ' JRR'
-, ' JRW', ' GTE')
+, ' JRW', ' GTE', ' SHIB-USD')
 
 
 
