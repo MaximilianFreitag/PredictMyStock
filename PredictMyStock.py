@@ -95,7 +95,8 @@ stock_name = (' AAPL', ' GOOG', ' AMZN', ' TSLA', ' FB', ' GME', ' MSFT', ' ADBE
 ' AFYA', ' GOL', ' VTRU', ' GLOB', ' TIGO', ' NEXA', ' AGRO', ' WF', ' KEP', ' CAAP', ' MX', ' ASPS', ' ATTO', ' KB', ' KT', ' IPOE', ' PE', ' CRSR', ' R', ' CLF', ' SF', ' TDOC', ' E', ' B', ' DM', ' TV', ' HUYA', ' PUMP', ' EBET', ' TDUP', ' COMP', ' HNST', 
 ' ANAT', ' CNXC', ' GGG', ' SCHL', ' OMI', ' DAR', ' DECK', ' MOSI', ' III', ' ZYME', ' SXC', ' TBT', ' VACQ', ' HP', ' PDS', ' ARPO', ' MRNS', ' MDP', ' GNK', ' GOGL', ' STNG', ' LLIT', ' MOSY', ' GRBK', ' POOL', ' MSM', ' CABO', ' XM', ' VAPO', ' IFF', ' RADI', ' QUAD',
 ' NXRT', ' GPRO', ' UNVR', ' BE', ' VTNR', ' GOED', ' RSI', ' MAX', ' BXC', ' CRC', ' FELE', ' LB', ' GAN', ' MPWR', ' CNMD', ' PGNY', ' OTRK', ' ALLK', ' RM', ' ROLL', ' VITL', ' FDP', ' HCAT', ' APLT', ' CONN', ' LSCC', ' CHEF', ' WDL.DE', ' BLDP', ' ZIP', ' FLUX',
-' IVR', ' CLNE', ' WKHS', ' WEN', ' MAN', ' FLY', ' RC', ' X', ' HHO', ' JWF',' KWQ', ' IIQ', ' ORA', ' ILD.PA', ' UHR',' TKWI', ' ABI', ' TSCO', ' TTE', ' FTI',' SLB', ' INGA', ' LSEG', ' ADVU', ' CFX', ' SHIB-USD')
+' IVR', ' CLNE', ' WKHS', ' WEN', ' MAN', ' FLY', ' RC', ' X', ' HHO', ' JWF',' KWQ', ' IIQ', ' ORA', ' ILD.PA', ' UHR',' TKWI', ' ABI', ' TSCO', ' TTE', ' FTI',' SLB', ' INGA', ' LSEG', ' ADVU', ' CFX', ' SHIB-USD',
+' AXS-USD', ' MATIC-USD', ' HEX-USD', ' META-USD', ' ICP1-EUR', ' AVAX-USD', ' MANA-EUR', ' HBAR-USD', ' FTT1-EUR', ' BTT1-EUR',' HOT1-EUR', ' COMP-EUR')
 
 
 col1, col2 = st.columns(2)
