@@ -1,5 +1,6 @@
 
 yfinance==0.2.14
+cmdstanpy==1.1.0
 pystan==3.1.0
 fbprophet==0.7.1
 ahk==0.14.1
