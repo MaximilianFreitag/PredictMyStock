@@ -1,3 +1,6 @@
+
+pystan==2.19.1.1
+fbprophet==0.7.1
 ahk==0.14.1
 aiohttp==3.8.1
 aiosignal==1.2.0
